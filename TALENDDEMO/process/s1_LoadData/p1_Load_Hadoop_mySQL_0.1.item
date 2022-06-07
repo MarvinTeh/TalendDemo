@@ -45,7 +45,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:H/WRJ7eIFRo4EjXIs3N7vhoiIpSTVRLN+a7oeY6M"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:k4hA7hkyW8eW1ow2QBuzlkFNdndvcDKhxBn8NILX"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -80,7 +80,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:aXE0UHs7mVxL6DfO3bAYBdVUKbnTqp/rs2ddkktH"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:IjLN8Z+VQTah8J/eQq5ylIYqGb/xVcqGEPwvvwrl"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -130,7 +130,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;MAMPU_POC&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" value="&quot;quandatics&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:tF5gjhvAoEZvyXp8uWpastMMK6b58oarJGA3kmZpsSDtDDsNGw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:77MgFylHVmKorzqBYIIeuwyhoFmzZx3huwmWhm2oQryQPMMEGg=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_TB4ykOYSEeyC4ZO0YgbGgw - GL_TRANSACTION"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;GL_TRANSACTION&quot;"/>
@@ -138,7 +138,7 @@
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  `GL_TRANSACTION`.`CLIENTID`, &#10;  `GL_TRANSACTION`.`VISITNUMBER`, &#10;  `GL_TRANSACTION`.`VISITID`, &#10;  `GL_TRANSACTION`.`VISITSTARTTIME`, &#10;  `GL_TRANSACTION`.`DATE`, &#10;  `GL_TRANSACTION`.`TOTALS_HITS`, &#10;  `GL_TRANSACTION`.`TOTALS_TIMEONSITE`, &#10;  `GL_TRANSACTION`.`TOTALS_PAGEVIEWS`, &#10;  `GL_TRANSACTION`.`DEVICE_BROWSER`, &#10;  `GL_TRANSACTION`.`DEVICE_BROWSERVERSION`, &#10;  `GL_TRANSACTION`.`DEVICE_OPERATINGSYSTEM`, &#10;  `GL_TRANSACTION`.`DEVICE_OPERATINGSYSTEMVERSION`, &#10;  `GL_TRANSACTION`.`DEVICE_MOBILEDEVICEBRANDING`, &#10;  `GL_TRANSACTION`.`DEVICE_MOBILEDEVICEMODEL`, &#10;  `GL_TRANSACTION`.`DEVICE_MOBILEDEVICEINFO`, &#10;  `GL_TRANSACTION`.`DEVICE_DEVICECATEGORY`, &#10;  `GL_TRANSACTION`.`GEONETWORK_CITYID`, &#10;  `GL_TRANSACTION`.`GEONETWORK_CITY`, &#10;  `GL_TRANSACTION`.`GEONETWORK_REGION`, &#10;  `GL_TRANSACTION`.`GEONETWORK_COUNTRY`&#10;FROM `GL_TRANSACTION`&#13;&#10;--Where DATE='&quot;+((String)globalMap.get(&quot;QueryDate&quot;))+&quot;'&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  `GL_TRANSACTION`.`CLIENTID`, &#10;  `GL_TRANSACTION`.`VISITNUMBER`, &#10;  `GL_TRANSACTION`.`VISITID`, &#10;  `GL_TRANSACTION`.`VISITSTARTTIME`, &#10;  `GL_TRANSACTION`.`DATE`, &#10;  `GL_TRANSACTION`.`TOTALS_HITS`, &#10;  `GL_TRANSACTION`.`TOTALS_TIMEONSITE`, &#10;  `GL_TRANSACTION`.`TOTALS_PAGEVIEWS`, &#10;  `GL_TRANSACTION`.`DEVICE_BROWSER`, &#10;  `GL_TRANSACTION`.`DEVICE_BROWSERVERSION`, &#10;  `GL_TRANSACTION`.`DEVICE_OPERATINGSYSTEM`, &#10;  `GL_TRANSACTION`.`DEVICE_OPERATINGSYSTEMVERSION`, &#10;  `GL_TRANSACTION`.`DEVICE_MOBILEDEVICEBRANDING`, &#10;  `GL_TRANSACTION`.`DEVICE_MOBILEDEVICEMODEL`, &#10;  `GL_TRANSACTION`.`DEVICE_MOBILEDEVICEINFO`, &#10;  `GL_TRANSACTION`.`DEVICE_DEVICECATEGORY`, &#10;  `GL_TRANSACTION`.`GEONETWORK_CITYID`, &#10;  `GL_TRANSACTION`.`GEONETWORK_CITY`, &#10;  `GL_TRANSACTION`.`GEONETWORK_REGION`, &#10;  `GL_TRANSACTION`.`GEONETWORK_COUNTRY`&#10;FROM `GL_TRANSACTION`&#13;&#10;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -1479,13 +1479,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_bb3d303a-9e2c-4202-8e3c-7027c68d15d8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hJBJEzYSCNd3eQObQr0O0jkcUazBtp/84oONKR4IPlhUz2L3gQ1GMpaiGe+kl1gt2a5SwA2CMZWj&#13;
-rCJwrkip3Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3e5a8e42-4b95-469d-89ff-974d86167b70"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>q9QNc+9gw1fINHgg37Z26oGH4fY6X9SeSvj48XleFdqcthtj5nzmit+NSwujoR4VdylEgSjJWnIL&#13;
-BTHYsgy2rw==</DigestValue></Reference></SignedInfo><SignatureValue>AtbgHNSAqVHfftt7nw4Z3svG4xT5xLNJ9DL1o3b5j29UuEdxCM43vqwVXmWjM4sMOHV3+baN8vNn&#13;
-d5VvhHZyfNVPkXHf8QLeolvM7YHUdjbEsvr9K5O/rXgh6Fzce0XyLfAn0BVy2dMcyLIL9pO6EZpx&#13;
-AfvE02ykRWQ3/tBRDIHU0qC5nO82MEq19plKbnWgKvwotd3K608YM4D9uxHY/FxA6c04jOziY3Xj&#13;
-1U4Q3pGdsUiCS8z+yBlSYf0wBw20qgz0C1fLN2MpJKxIb/oWuCPeWwUecbtpuk5w4T7oP6AoKRje&#13;
-dzk0+hySQzyY3KD87MjV2pysQdWZEtDFv2zUSg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c10ab5b5-d00f-4f06-bdd3-354eb0e6a065"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>y7iCQG4gofyXHloFjw0g5TW+3WezmE0VktftaTO8RK0K+Jnu0C62w3HACu5lPZu865ovcew1lg3l&#13;
+r8RFVSG6qg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c0dae749-183c-49a9-ad82-5dbac427fa60"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0iDx1QFmUFzjoeNIwaSGydbAOADvfy9tPKdUZStLCFwgHTuUSPJ+M8XHormMJ3+xJb/QZy3ir0w3&#13;
++p8tjgAWhg==</DigestValue></Reference></SignedInfo><SignatureValue>Co324vDlA9nR1VRp7wF3VAtaSXuv1qyoV4xOt3xJWnw/tugXnr6fk7EM8qT56k/ZUrpRvUltPZCm&#13;
+jRnvUcLgZgDlRZbZFZGUR+8x4ACd52uRIDn4I2xAIhf2SN9D8g8TQrBXpmt3IIFvqFRXOPrj2VPT&#13;
+MX8OQNBjsiY3xDmLG5nGGPbTafa8JzCyQ/7oLvvrI7J5Y1quqtNMg6VKfKZ+jsvsR85s/Zp1YDf7&#13;
+Zsg0FSZDN9xduHprLNO6s2Jg/B6asgi5ZadGLD7J+kKjduFPE1+tXIEwH3E82t3M9rwDzoH4tUHj&#13;
+85wUA5LMmSjpHfwxcn2gpf+Jx+wmUv8AAk7WlA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1507,4 +1507,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3e5a8e42-4b95-469d-89ff-974d86167b70" Target="#_bb3d303a-9e2c-4202-8e3c-7027c68d15d8"><Timestamp>2022-06-07 08:43:44</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c0dae749-183c-49a9-ad82-5dbac427fa60" Target="#_c10ab5b5-d00f-4f06-bdd3-354eb0e6a065"><Timestamp>2022-06-07 08:44:23</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
