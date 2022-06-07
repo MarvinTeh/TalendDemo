@@ -45,7 +45,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:H+nOOthkrf+6hAOrSApjwrrL2Sqfh496yqjI0mGW"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:Mwv2Ru2WxcLW64Ta0Iel/HuRFEI3MyEgvymVH43I"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -80,7 +80,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ELvung/xRhA2BHkEO/yKg2DejqvpL59WUs4jadWh"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:L3iIKpvIgOIFGUjgreHyfQhNtLtXeWGgDIPhiu2L"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -129,7 +129,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;MAMPU_POC&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" value="&quot;quandatics&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8U4WPdhP46lpMUlYeXyz4o6hHgnp85rt2gLzk8W/CIrWQw3gYw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:NTPCbN7dH1aQ1KZ+uM9cTw+fFmeJhpIYa4NadVq0DYt07UabxA=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_TB4ykOYSEeyC4ZO0YgbGgw - GL_TRANSACTION"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;GL_TRANSACTION&quot;"/>
@@ -893,6 +893,78 @@
       <elementValue elementRef="FUNCTION" value=""/>
       <elementValue elementRef="OPERATOR" value="=="/>
       <elementValue elementRef="RVALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="VISITID"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="=="/>
+      <elementValue elementRef="RVALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="VISITSTARTTIME"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="=="/>
+      <elementValue elementRef="RVALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="DATE"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="=="/>
+      <elementValue elementRef="RVALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="TOTALS_HITS"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="=="/>
+      <elementValue elementRef="RVALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="TOTALS_TIMEONSITE"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="=="/>
+      <elementValue elementRef="RVALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="TOTALS_PAGEVIEWS"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="=="/>
+      <elementValue elementRef="RVALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="DEVICE_BROWSER"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="=="/>
+      <elementValue elementRef="RVALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="DEVICE_BROWSERVERSION"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="=="/>
+      <elementValue elementRef="RVALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="DEVICE_OPERATINGSYSTEM"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="=="/>
+      <elementValue elementRef="RVALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="DEVICE_OPERATINGSYSTEMVERSION"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="=="/>
+      <elementValue elementRef="RVALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="DEVICE_MOBILEDEVICEBRANDING"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="=="/>
+      <elementValue elementRef="RVALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="DEVICE_MOBILEDEVICEMODEL"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="=="/>
+      <elementValue elementRef="RVALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="DEVICE_MOBILEDEVICEINFO"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="=="/>
+      <elementValue elementRef="RVALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="DEVICE_DEVICECATEGORY"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="=="/>
+      <elementValue elementRef="RVALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="GEONETWORK_CITYID"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="=="/>
+      <elementValue elementRef="RVALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="GEONETWORK_CITY"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="=="/>
+      <elementValue elementRef="RVALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="GEONETWORK_REGION"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="=="/>
+      <elementValue elementRef="RVALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="GEONETWORK_COUNTRY"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="=="/>
+      <elementValue elementRef="RVALUE" value="&quot;&quot;"/>
     </elementParameter>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
     <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" show="false" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
@@ -1405,13 +1477,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_65c0bfed-9ed2-4e79-a591-1cd6673047bb"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>r+yVyz8C7Awn2LwaeR0I39Y8ixB721DLptCq2ybL/VML0TNJh+f3r01SqrH7lVxxrVKXmkXLeS4V&#13;
-8ftOoisaaw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7a3cec85-3b60-4c0b-9307-a3aa42888c80"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Uh9+FTTxUtdWjZOTKro5L3SoEKr5cl2/COT9hlN7R9/ueXTb1XVqk7pClTF9KtbWS62ySd7hxWY0&#13;
-aSAohruR6w==</DigestValue></Reference></SignedInfo><SignatureValue>GL+p+7GSr4HxumOPI6c6ZxpRVJBLu++IiDzBIVrYqQNCK0C3rg5bxUlseaxf+jsbv3nA2NKCKAwp&#13;
-+HJ9ecox4V5QJsfJj9sX31wVNxzhcnmzNcK4Hfbgbh9k778gDHJ2TNOgpb2T8NpQIzGLiJIaBq9p&#13;
-Ebnbgt2fxNAofY0QuqbZ/FXgRCSdPNsK9ef6hFutIypnqOQct6+y+5WgQ7psPBa4CyvqOc43CNcC&#13;
-MICeSNX4+cE9zOrwD57yo8fZ/uq94rSkwQow98r7OH3wxAyMZ7p301jPnPrLZqAfkKzW9V+9QX5G&#13;
-Qrh0BX/p3Bd2VKMcJua99HmlCaLcQf5TqgcM+Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_267d261b-4798-40b8-8e9c-ac37345a9931"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>L2CgdzkshrAHSHI2xmVWSG5IrvJ0EuMoWDIo+4Ft8CgHRT3kzZScLZUe2nCTqkAOSBdMUTa7Ln97&#13;
+hbvQF8brOw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b5adabed-1143-4900-942a-62e364164022"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1uCRGHiRf4Lv0HvnYEXmFWFoPAQ7VItf16l5ReJZ0UM1TxFSp6dxHdApC+wkEw0crnrURs6UHuAz&#13;
+NjFLS5yJvQ==</DigestValue></Reference></SignedInfo><SignatureValue>KYqAjQLL9Jwch9rFfF82aUJUMJ4m89MSxiKyAqowVtaeyzk4sAZrwGWMDV8wuNuCqNddLH8BS1SY&#13;
+9ew5dJ8n7PsHJyEA8mPhBLAzv1qdkwsXqp215uuc9JBREM2otSWThAMURZpVdd4lHIgV0BQ8ePrv&#13;
+cMjPXSeXtPpRphWz7sdoMCWJ4tMCDD/GtUIVIBozTqNq5Ut34kzOmFGcgry9cwEgJxy5/51B1sOF&#13;
+7S7I5EsMzQHIjq9F1Z5JnRlng7CuasjAhMSSvQgGxTaoTpB0ZJqiJb4vUc6IM7xg0ImBawZUEdxJ&#13;
+zH6eCjmjigJpS79BrLvvHX6YAKDo8sG5frzgGw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1433,4 +1505,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7a3cec85-3b60-4c0b-9307-a3aa42888c80" Target="#_65c0bfed-9ed2-4e79-a591-1cd6673047bb"><Timestamp>2022-06-07 08:22:29</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b5adabed-1143-4900-942a-62e364164022" Target="#_267d261b-4798-40b8-8e9c-ac37345a9931"><Timestamp>2022-06-07 08:31:05</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
