@@ -12,5 +12,9 @@
     "id" : "_zi04wOYTEeyC4ZO0YgbGgw",
     "version" : "Latest",
     "type" : "property"
+  }, {
+    "id" : "_zi04wOYTEeyC4ZO0YgbGgw - GA_TRANSACTION",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 } ]
