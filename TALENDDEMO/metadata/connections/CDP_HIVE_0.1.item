@@ -7,10 +7,10 @@
   <parameters key="CONN_PARA_KEY_USERNAME" value="" xmi:id="_dnog1ubkEeylB-iAUCfr7g"/>
   <parameters key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_WKFxMObkEeylB-iAUCfr7g" xmi:id="_dnog1-bkEeylB-iAUCfr7g"/>
   <parameters key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@QUANDATICS.TECH" xmi:id="_dnog2ObkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_HBASE_VERSION" value="Cloudera_CDP7_1_7_1000_141_dynamic_20220608115232767_0800" xmi:id="_dnog2ebkEeylB-iAUCfr7g"/>
+  <parameters key="CONN_PARA_KEY_HBASE_VERSION" value="Cloudera_CDP7_1_7_1000_141_dynamic_20220608172054905_0800" xmi:id="_dnog2ebkEeylB-iAUCfr7g"/>
   <parameters key="CONN_PARA_KEY_JOB_TRACKER_URL" value="master-cdp.quandatics.tech:8032" xmi:id="_dnog2ubkEeylB-iAUCfr7g"/>
   <parameters key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="master-cdp.quandatics.tech:10020" xmi:id="_dnog2-bkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDP7_1_7_1000_141_dynamic_20220608115232767_0800" xmi:id="_dnog3ObkEeylB-iAUCfr7g"/>
+  <parameters key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDP7_1_7_1000_141_dynamic_20220608172054905_0800" xmi:id="_dnog3ObkEeylB-iAUCfr7g"/>
   <parameters key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true" xmi:id="_dnog3ebkEeylB-iAUCfr7g"/>
   <parameters key="CONN_PARA_KEY_DB_SERVER" value="master-cdp.quandatics.tech" xmi:id="_dnog3ubkEeylB-iAUCfr7g"/>
   <parameters key="CONN_PARA_KEY_HIVE_GOOGLE_PROJECT_ID" xmi:id="_dnog3-bkEeylB-iAUCfr7g"/>
@@ -22,7 +22,7 @@
   <parameters key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@QUANDATICS.TECH" xmi:id="_dnog5ebkEeylB-iAUCfr7g"/>
   <parameters key="CONN_PARA_KEY_HIVE_AUTHENTICATION_DEFINE_PATH_TO_GOOGLE_CREDENTIALS" xmi:id="_dnog5ubkEeylB-iAUCfr7g"/>
   <parameters key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="CLOUDERA" xmi:id="_dnog5-bkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_MAPRDB_VERSION" value="Cloudera_CDP7_1_7_1000_141_dynamic_20220608115232767_0800" xmi:id="_dnog6ObkEeylB-iAUCfr7g"/>
+  <parameters key="CONN_PARA_KEY_MAPRDB_VERSION" value="Cloudera_CDP7_1_7_1000_141_dynamic_20220608172054905_0800" xmi:id="_dnog6ObkEeylB-iAUCfr7g"/>
   <parameters key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="CLOUDERA" xmi:id="_dnog6ebkEeylB-iAUCfr7g"/>
   <parameters key="CONN_PARA_KEY_HIVE_GOOGLE_REGION" xmi:id="_dnog6ubkEeylB-iAUCfr7g"/>
   <parameters key="CONN_PARA_KEY_USE_KRB" value="true" xmi:id="_dnog6-bkEeylB-iAUCfr7g"/>
@@ -37,15 +37,15 @@
   <parameters key="HIVE_SERVER_VERSION" value="HIVE2" xmi:id="_dnog9ObkEeylB-iAUCfr7g"/>
   <parameters key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE" xmi:id="_dnog9ebkEeylB-iAUCfr7g"/>
   <parameters key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value="gh.chow@QUANDATICS.TECH" xmi:id="_8eqdYOb6EeyBf_yYFOrxlA"/>
-  <parameters key="CONN_PARA_KEY_KEYTAB" value="C:/Users/Quandatics/Desktop/gh.chow.keytab" xmi:id="_8eqdYeb6EeyBf_yYFOrxlA"/>
+  <parameters key="CONN_PARA_KEY_KEYTAB" value="C:/gh.chow.keytab" xmi:id="_8eqdYeb6EeyBf_yYFOrxlA"/>
   <parameters key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS" xmi:id="_8errgOb6EeyBf_yYFOrxlA"/>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_bcef44a6-e175-447a-b098-414352827db2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kyN5LKmKOxNA7Qm+pF12fAV+y9Sz6QcWQtvuq1ZbWdHwLD8KdwuattCWDAD8fWz0HhZGj6XlMyF0&#13;
-SeXDL47Vhg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e025a752-91f1-4fd1-8f2f-3c15df63b080"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kPI5/J0m6hnYVDTSdTUVrNX8nmX+cjRorr3KIPOvw1vCz6NzmqIOcv6DbZ2AWzOVJhY37H1qUvxK&#13;
-zLbrS19kGg==</DigestValue></Reference></SignedInfo><SignatureValue>JZsCi4iqxX/yX1BmkCmPHwff0yrkui48pdEjCJ1rbS6MlMSaie/L7APAQxvnxvYGDoMHeg3QjA3Y&#13;
-LLETujYKQTUf3jW8rwsdhP5eGz1sIDtO3vs+d6WoYQzmvalOntntQz8ym4h95ikuooyO1jm+ZZpf&#13;
-Czp5WkxyEMPMJPkvv+tJuWAF8Ylkik0WajFEm8pXIB1Lp4p8biXoSZIxe2UNCbX8jAuPQnNagZqw&#13;
-/uWgYpkLaSkU1Rei1h81r7y9kkj6XOE0HUka0N6VnwLZacT8eH+fI6/6J9aUNfYNJA51G8Bs9wod&#13;
-KqyUl1wNP0ISObuEmP/1NyueHivF979XFQHICg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_295a9518-56cf-4076-9c0d-b09c941df790"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>k3bNVZHXAJzPLRUETIgXc/NhQDjN5/FV9Jkf1BKGfr+LTu2L4EWp+MktIElQKoKRFSH0c+FyNYkg&#13;
+uzUqZtGHbA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e849b11e-3e8c-4d92-bc26-0d330af38172"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OqbJEGR8UGIksUqcB4ggmAHwhvsfTWCh7FIAiRfMAQ/+IaleozH/Oe3hxbeC4ME0FUA57/SakvIu&#13;
+F2y1s4f0cg==</DigestValue></Reference></SignedInfo><SignatureValue>Sgrq4Cr2DxDYsXwPNSI72+FPNVP1K1oQUKurhKBf0ffGgiMMp5tJPFn3qRSHCHHQucvs8T85JXWj&#13;
+se3CIt/uFJxNYYA0FHJygNH8klKATyyQJDQNgvxVmriJ34SacHKFpzhbdyjc41E0tH+YfIxGziG0&#13;
+LvqeUDuTBN5F7oO0j1/MeKezXHfHqrq+3EgI+YTPP+j2SzDVHRatqrxPyLNEDQDs94VCsukrxNK+&#13;
+yZ4o0qQ+cwER/nTAHqr4tRK8V2MPYWpK419rXDWJRsauUWfyWzR0hTJ4pXCYoqAQwfHbR4+qns3r&#13;
+BPXLgV45/Mrf5IAMris59MRkwy+ZkPI4UJr8Iw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -67,4 +67,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e025a752-91f1-4fd1-8f2f-3c15df63b080" Target="#_bcef44a6-e175-447a-b098-414352827db2"><Timestamp>2022-06-08 09:37:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></TalendMetadata:DatabaseConnection>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e849b11e-3e8c-4d92-bc26-0d330af38172" Target="#_295a9518-56cf-4076-9c0d-b09c941df790"><Timestamp>2022-06-08 09:41:12</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></TalendMetadata:DatabaseConnection>
