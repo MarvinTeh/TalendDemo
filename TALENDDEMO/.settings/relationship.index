@@ -8,6 +8,10 @@
     "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
+  }, {
+    "id" : "_Z7mKYObYEeynB5dDDRoEMw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
