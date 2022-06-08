@@ -1,13 +1,17 @@
 [ {
   "baseItem" : {
-    "id" : "_WKFxMObkEeylB-iAUCfr7g",
+    "id" : "_-RWtkOb7EeycTbWETLlxiw",
     "version" : "0.1",
-    "type" : "hadoopCluster"
+    "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "Cloudera_CDP7_1_7_1000_141_dynamic_20220608172054905_0800",
+    "id" : "_dm0BcObkEeylB-iAUCfr7g",
     "version" : "Latest",
-    "type" : "dynamicDistribution"
+    "type" : "property"
+  }, {
+    "id" : "_dnfW4ObkEeylB-iAUCfr7g",
+    "version" : "Latest",
+    "type" : "property"
   } ]
 }, {
   "baseItem" : {
