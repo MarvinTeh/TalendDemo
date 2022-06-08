@@ -11,6 +11,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_-RWtkOb7EeycTbWETLlxiw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "Cloudera_CDP7_1_7_1000_141_dynamic_20220608115232767_0800",
+    "version" : "Latest",
+    "type" : "dynamicDistribution"
+  }, {
+    "id" : "_dnfW4ObkEeylB-iAUCfr7g",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_MLrWcOYXEeyC4ZO0YgbGgw",
     "version" : "0.1",
     "type" : "job"
