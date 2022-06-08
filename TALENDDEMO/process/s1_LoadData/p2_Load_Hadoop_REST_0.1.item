@@ -56,7 +56,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:nDZXxR86VhHWe0p3YyN73OGkJ/Xx1kn/oT9A9JcU"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:uUHx14CZnnwySqyCY153y4js/jLAPEvsQCjFiTL2"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -91,7 +91,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ukh7saPDpDSqPAeVSqtqNvZlF1lBsaKadupbfPCS"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:HY8ZheJR2vTuc28TYC5zBNKz9LHUPVC7SJwc9nf7"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -222,43 +222,43 @@
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPING_4_JSONPATH">
       <elementValue elementRef="SCHEMA_COLUMN" value="business_status"/>
-      <elementValue elementRef="QUERY" value="business_status"/>
+      <elementValue elementRef="QUERY" value="&quot;business_status&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="latitude"/>
-      <elementValue elementRef="QUERY" value="geometry.location.lat"/>
+      <elementValue elementRef="QUERY" value="&quot;geometry.location.lat&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="longitude"/>
-      <elementValue elementRef="QUERY" value="geometry.location.lng"/>
+      <elementValue elementRef="QUERY" value="&quot;geometry.location.lng&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="icon"/>
-      <elementValue elementRef="QUERY" value="icon"/>
+      <elementValue elementRef="QUERY" value="&quot;icon&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="icon_background_color"/>
-      <elementValue elementRef="QUERY" value="icon_background_color"/>
+      <elementValue elementRef="QUERY" value="&quot;icon_background_color&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="icon_mask_base_uri"/>
-      <elementValue elementRef="QUERY" value="icon_mask_base_uri"/>
+      <elementValue elementRef="QUERY" value="&quot;icon_mask_base_uri&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="name"/>
-      <elementValue elementRef="QUERY" value="name"/>
+      <elementValue elementRef="QUERY" value="&quot;name&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="opening_hours"/>
-      <elementValue elementRef="QUERY" value="opening_hours"/>
+      <elementValue elementRef="QUERY" value="&quot;opening_hours&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="place_id"/>
-      <elementValue elementRef="QUERY" value="place_id"/>
+      <elementValue elementRef="QUERY" value="&quot;place_id&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="compound_code"/>
-      <elementValue elementRef="QUERY" value="plus_code.compound_code"/>
+      <elementValue elementRef="QUERY" value="&quot;plus_code.compound_code&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="global_code"/>
-      <elementValue elementRef="QUERY" value="plus_code.global_code"/>
+      <elementValue elementRef="QUERY" value="&quot;plus_code.global_code&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="rating"/>
-      <elementValue elementRef="QUERY" value="rating"/>
+      <elementValue elementRef="QUERY" value="&quot;rating&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="reference"/>
-      <elementValue elementRef="QUERY" value="reference"/>
+      <elementValue elementRef="QUERY" value="&quot;reference&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="scope"/>
-      <elementValue elementRef="QUERY" value="scope"/>
+      <elementValue elementRef="QUERY" value="&quot;scope&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="types___"/>
-      <elementValue elementRef="QUERY" value="types[*]"/>
+      <elementValue elementRef="QUERY" value="&quot;types[*]&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="user_ratings_total"/>
-      <elementValue elementRef="QUERY" value="user_ratings_total"/>
+      <elementValue elementRef="QUERY" value="&quot;user_ratings_total&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="vicinity"/>
-      <elementValue elementRef="QUERY" value="vicinity"/>
+      <elementValue elementRef="QUERY" value="&quot;vicinity&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="photos___"/>
-      <elementValue elementRef="QUERY" value="photos[*]"/>
+      <elementValue elementRef="QUERY" value="&quot;photos[*]&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="response_status_code"/>
-      <elementValue elementRef="QUERY" value="$.status"/>
+      <elementValue elementRef="QUERY" value="&quot;$.status&quot;"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
@@ -405,13 +405,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7bdc668f-6071-4048-b0c4-ac92fdefcebf"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6B0Va4dI3pvrLLuxelKanIHOShuIjaEcL283BrZWnA/lvoaayf+Kd6e4OXfvIAefEyf3vraNVP2I&#13;
-FOclBBISqQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ff13765e-4a17-4fdf-bda8-b1a58b043f3f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>QTPI9brZgCawjHZOm//9DezElef++VBUq19PQWi3y7gaF/A7ra5V3jJcjx7tONmzJvkaaopdRO87&#13;
-ZGBeXdZVkA==</DigestValue></Reference></SignedInfo><SignatureValue>KPMkwwxFWcvOKv/cjqG3Y9Nh1cs2HLfT2hw1qI4DrqcsOUNGL2C032RwFuXvh/sVQSRH7QAPqYwr&#13;
-q1Fg1bh2+CtgG+69K4aCFMYQTdeeaQaD34sC8Q6bgSGIByE/qbRaI92/xBwssDYM8t3indy95cg7&#13;
-vdY9bdMFzYUH2b/f0TsTwHFBtBZmhXoXvLGTa5/5GJwAflGAMuLmnJ7/+hfRZv6RPw8Y3lsCTP/c&#13;
-hh8nOYhMogjWMBo/8Wj4yGaXYiiYZtUoAPmEovUVcUrI1yuXpjHP4GpTHcpSj+eRUUM5e99KKXyQ&#13;
-/ziMBsP31ub75Wn0yeUe1KyUAreyv5Uq5YYtNg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e5e211d9-1d6f-46c0-b6bb-ed2ea79b29f5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>R2g5RtFKouYILSES1BEb3Ln/ycuzW+uwjbt/eUhPBMNppNGuQCC2jPEJyxlgL5ErL4dahnDsf7a2&#13;
+Nh4zMDzYHw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ec531d19-1642-456d-b702-60fae71250f5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OXvCHOXnxl8kJ0owdfPieKZVPW+h8/PdZrLkspvvz60MbNspKb/bKuw6n6uIkMwGMwlGC+Dol1Ld&#13;
+Pm0Ub86Paw==</DigestValue></Reference></SignedInfo><SignatureValue>ZwKqIw2f97uwD+NXZoGd3OMELQjHyMqdmB7hnemddsyiKDvU5yORQBvXDquz/VnVMHtxsYsuQY9N&#13;
+2mj9QJPPDfihqWr3QJJsvUMJb8Ukjxjrx4BP2wctrlg4sU0eUaOWmnPs/m0ITaaeuRxPR5865KJx&#13;
+rEREEHkIS/4Y/hHHOKR9xIe8MX44QYxwDmdDvpnMs/yJROA+s0dMYV8RYvomwQ8uGwHpVzsHlqtO&#13;
+iKzGo+p2ioEm4zZLKugThAngxMkL7KW4PtcDE90pCYk0hfOSbuZNhdhmEu34SgxTTOKmFL9bUA4N&#13;
+RnGOoxPYCg2oJ4HsFvNTLZExLxVmQkM10F8FNg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -433,4 +433,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ff13765e-4a17-4fdf-bda8-b1a58b043f3f" Target="#_7bdc668f-6071-4048-b0c4-ac92fdefcebf"><Timestamp>2022-06-08 02:43:46</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ec531d19-1642-456d-b702-60fae71250f5" Target="#_e5e211d9-1d6f-46c0-b6bb-ed2ea79b29f5"><Timestamp>2022-06-08 02:45:28</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
