@@ -27,6 +27,14 @@
     "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
+  }, {
+    "id" : "Cloudera_CDP7_1_7_1000_141_dynamic_20220608172054905_0800",
+    "version" : "Latest",
+    "type" : "dynamicDistribution"
+  }, {
+    "id" : "_dnfW4ObkEeylB-iAUCfr7g",
+    "version" : "Latest",
+    "type" : "property"
   } ]
 }, {
   "baseItem" : {
