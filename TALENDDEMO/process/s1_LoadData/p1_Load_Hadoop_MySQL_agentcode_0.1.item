@@ -45,7 +45,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:ohi2UWlf/EfbB7eLMyShhJT1VBQnAgTREpZJmK4y"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:LxIEtyt+apokIvITvXh8bZeOnrKjcddLuQXIuqkm"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -80,7 +80,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:vXHNXKjS27BoVmawkTRT6+SHv0KbETRihj3UIFYa"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:P3+JTUN9oVh3m9btcDz3dlgEv8RtORYvpQwoopE+"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -117,6 +117,7 @@
   </parameters>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="32" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="if(context.InputDate==null||context.InputDate.trim().isEmpty())&#10;{&#10;&#9;globalMap.put(&quot;QueryDate&quot;, TalendDate.formatDate(&quot;yyyyMMdd&quot;,TalendDate.addDate(TalendDate.parseDate(&quot;dd/MM/yyyy&quot;, TalendDate.getDate(&quot;dd/MM/yyyy&quot;)),-1,&quot;dd&quot;)));&#10;}&#10;else&#10;&#9;&#9;globalMap.put(&quot;QueryDate&quot;, context.InputDate);&#10;&#10;System.out.println((String)globalMap.get(&quot;QueryDate&quot;));"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -134,15 +135,15 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;MAMPU_POC&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" value="&quot;quandatics&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:wjK84xwL7RJI+e4amcD7cCgS6BOanBFCaTuIVX2mcA41Hka6Qg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:sZZlPbPdXFrmDvkYkdYg1cQ1UW9xuJG6RURxJgtlDEG88uykBg=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_TB4ykOYSEeyC4ZO0YgbGgw - GL_TRANSACTION"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;GL_TRANSACTION&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;agent_code&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  `GL_TRANSACTION`.`CLIENTID`, &#10;  `GL_TRANSACTION`.`VISITNUMBER`, &#10;  `GL_TRANSACTION`.`VISITID`, &#10;  `GL_TRANSACTION`.`VISITSTARTTIME`, &#10;  `GL_TRANSACTION`.`DATE`, &#10;  `GL_TRANSACTION`.`TOTALS_HITS`, &#10;  `GL_TRANSACTION`.`TOTALS_TIMEONSITE`, &#10;  `GL_TRANSACTION`.`TOTALS_PAGEVIEWS`, &#10;  `GL_TRANSACTION`.`DEVICE_BROWSER`, &#10;  `GL_TRANSACTION`.`DEVICE_BROWSERVERSION`, &#10;  `GL_TRANSACTION`.`DEVICE_OPERATINGSYSTEM`, &#10;  `GL_TRANSACTION`.`DEVICE_OPERATINGSYSTEMVERSION`, &#10;  `GL_TRANSACTION`.`DEVICE_MOBILEDEVICEBRANDING`, &#10;  `GL_TRANSACTION`.`DEVICE_MOBILEDEVICEMODEL`, &#10;  `GL_TRANSACTION`.`DEVICE_MOBILEDEVICEINFO`, &#10;  `GL_TRANSACTION`.`DEVICE_DEVICECATEGORY`, &#10;  `GL_TRANSACTION`.`GEONETWORK_CITYID`, &#10;  `GL_TRANSACTION`.`GEONETWORK_CITY`, &#10;  `GL_TRANSACTION`.`GEONETWORK_REGION`, &#10;  `GL_TRANSACTION`.`GEONETWORK_COUNTRY`&#10;FROM `GL_TRANSACTION`&#13;&#10;Where DATE='&quot;+((String)globalMap.get(&quot;QueryDate&quot;))+&quot;'&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  `agent_code`.`CLIENTID`, &#10;  `agent_code`.`VISITNUMBER`, &#10;  `agent_code`.`VISITID`, &#10;  `agent_code`.`VISITSTARTTIME`, &#10;  `agent_code`.`DATE`, &#10;  `agent_code`.`TOTALS_HITS`, &#10;  `agent_code`.`TOTALS_TIMEONSITE`, &#10;  `agent_code`.`TOTALS_PAGEVIEWS`, &#10;  `agent_code`.`DEVICE_BROWSER`, &#10;  `agent_code`.`DEVICE_BROWSERVERSION`, &#10;  `agent_code`.`DEVICE_OPERATINGSYSTEM`, &#10;  `agent_code`.`DEVICE_OPERATINGSYSTEMVERSION`, &#10;  `agent_code`.`DEVICE_MOBILEDEVICEBRANDING`, &#10;  `agent_code`.`DEVICE_MOBILEDEVICEMODEL`, &#10;  `agent_code`.`DEVICE_MOBILEDEVICEINFO`, &#10;  `agent_code`.`DEVICE_DEVICECATEGORY`, &#10;  `agent_code`.`GEONETWORK_CITYID`, &#10;  `agent_code`.`GEONETWORK_CITY`, &#10;  `agent_code`.`GEONETWORK_REGION`, &#10;  `agent_code`.`GEONETWORK_COUNTRY`&#10;FROM `agent_code`&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -525,7 +526,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_n7CEYOfCEeyG1ci_8GvCVw-tMap_3-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_Gd3-0OfHEeyG1ci_8GvCVw-tMap_3-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
@@ -849,7 +850,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_n7CEYOfCEeyG1ci_8GvCVw-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_Gd3-0OfHEeyG1ci_8GvCVw-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
@@ -1267,8 +1268,8 @@
     <elementParameter field="TEXT" name="FS_DEFAULT_NAME" value="&quot;hdfs://master-cdp.quandatics.tech:8020&quot;"/>
     <elementParameter field="TEXT" name="ADLS_FS_DEFAULT_NAME" show="false" value="&quot;adl://account.azuredatalakestore.net&quot;"/>
     <elementParameter field="TEXT" name="ADLS_CLIENT_ID" show="false" value="&quot;XXXX&quot;"/>
-    <elementParameter field="PASSWORD" name="ADLS_AUTH_TOKEN_ENDPOINT" show="false" value="enc:system.encryption.key.v1:5PvlYr0AkwyS4tG7xK7Pr5QHaY2lm7PpSwZTG9IAG29Z/64sYpkcjghoJpIyDHhKWKYVphyNu7grfnDgKkyZUcRmypwsRzsZPtIHSfN4C+U="/>
-    <elementParameter field="PASSWORD" name="ADLS_CLIENT_KEY" show="false" value="enc:system.encryption.key.v1:srcABwXn1Il0+aazoMZtXMoeU3xJVLxiH/HvJPCLmjsanw=="/>
+    <elementParameter field="PASSWORD" name="ADLS_AUTH_TOKEN_ENDPOINT" show="false" value="enc:system.encryption.key.v1:jCv/nExmIh9Q+8Grxni6jODgc27E2rOMQEBxBMr4mi+MMKy8yRPBewSHgdcfw4eCPW0k39xuVpTdHlBqmYVvGvgRr633PUCkF1HgI/cJnLg="/>
+    <elementParameter field="PASSWORD" name="ADLS_CLIENT_KEY" show="false" value="enc:system.encryption.key.v1:OJuMfnyZE41qWy3YzSpR7EXmmzNDIR70fLrLIOpQrHVuPw=="/>
     <elementParameter field="CHECK" name="USE_DATANODE_HOSTNAME" value="true"/>
     <elementParameter field="CHECK" name="USE_KRB" value="true"/>
     <elementParameter field="TEXT" name="NAMENODE_PRINCIPAL" value="&quot;hdfs/_HOST@QUANDATICS.TECH&quot;"/>
@@ -1278,7 +1279,7 @@
     <elementParameter field="CHECK" name="USE_MAPRTICKET" show="false" value="false"/>
     <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;anonymous&quot;"/>
     <elementParameter field="TEXT" name="GROUP" show="false" value="&quot;supergroup&quot;"/>
-    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:x+grl5VoKBpXBvX+MqMZfU6YZnbpwhI5i9imDN3b"/>
+    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:+6GW2s5aVR5aoe4MumgHQF5+SnbFidWFtGZcZ6Gz"/>
     <elementParameter field="TEXT" name="MAPRTICKET_CLUSTER" show="false" value="&quot;demo.mapr.com&quot;"/>
     <elementParameter field="TEXT" name="MAPRTICKET_DURATION" show="false" value=""/>
     <elementParameter field="BOTH_HADOOP" name="FILENAME" value="&quot;/data/raw/mysql.csv&quot;"/>
@@ -1709,6 +1710,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="-1" offsetLabelY="3" source="tJava_1" target="tDBInput_1">
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
   </connection>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tUniqRow_1">
@@ -1759,6 +1761,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row6"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tLibraryLoad_1" offsetLabelX="0" offsetLabelY="0" source="tLibraryLoad_1" target="tJava_1">
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
   </connection>
   <subjob>
@@ -1781,13 +1784,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6ab6365d-4bea-4e05-88ff-bdb849b8d194"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ilq+yQhCEBzBEQ7qd1Cw/OaQyOylg3qnF4Q6aH3FUhiO6ja+Hpt/s5N7+yXOd7snKK1gxhNqQuCt&#13;
-/fcXG0BPnA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_56bbebc3-e23a-4c3c-825e-851f4fa750bb"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>QGZXesbYkPekllB22I8P7K/DawStQ8dGo1Z/4o2m6FxaNA8Kq+ZQxTTkh+1VUCIvCjw8nrDuOev+&#13;
-RnntDUPaDQ==</DigestValue></Reference></SignedInfo><SignatureValue>QV3DZCCka2bUT3AvUlifluqXwFzrVJ+4UpIVLiBtvDkZzcdsFgbeb0A+Gmxw2fSdlWIb+yHWPZyF&#13;
-mzb1DOZIukNUzG+jNd1LiUj2CVFQgWuuuDCARboDJeK2yEwSoKxui+0C5cy+ted73kbIlm8n7e0P&#13;
-iXS229IGqDqo2EpvHA1Qczq5EnxsdAFAA+rxKE0p6ipzK0HUulZuLB8Rv9PE9BP2uVq6wS0N39q3&#13;
-edLJxsbe9y8Sps/IhG55Rupz7aY+Z6H9pPp2gjswIeQCN6BXIkpq/Gvk2ZYUQRebCoBSBa2LkPrh&#13;
-umLWPIsDMNk2m0uRmLaONnEr7cJtAnn0/1Gl0g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_21d63476-4cca-41bd-8420-e227bfa97caa"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>EJ0rBFipuPZ/iHwMc7TkU0MZSCrQqKRls9bsXgIRIzYfeoGiOFQcCmVYVw9nOgd6AyhzMhCQqGpv&#13;
+uYpS5Q6uxQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0aa818e0-ccd2-4470-9327-b9744e2ab798"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>YHoN1jYwMudEFKxvMNqBXqJ41n4JvRW16iwLoE4I/1HO5Nbb2kSJNjX2g1AX3ydfPhwc58HpHXyY&#13;
+sucpTI8xSA==</DigestValue></Reference></SignedInfo><SignatureValue>WNRlp8syw/0lchOSmD9oLU2YCvjaC2+cVwi2oX3EKMPe6yAvJIUAOsMuVSsi1xWeY3SGVPKvZ4v9&#13;
+pbF0ie2BK7swuc8P1Tevs5F3b8oYbTYmAgwnHeZC6wrUKQ4zzHZYf4STgLH7L5OTPEoh5eqq4xSD&#13;
+nbcdDKxGp4oSBrfNmlWPq5/KDMGbQbWK17I8sz1/vcXjKIVmpkS8teWt1i5gaQzzqajbgqbOQNNL&#13;
+8f6xZL5VxtM2hz/BYbpWYVQDYc9K59BXC22tbyrmuuAcZAVuCnt9NCxhWlakAcid5CLTbzfeG2yr&#13;
+PwDnO+n0+j9zKL/Z2Not6lmZTS12Pe1MvzVZJQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1809,4 +1812,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_56bbebc3-e23a-4c3c-825e-851f4fa750bb" Target="#_6ab6365d-4bea-4e05-88ff-bdb849b8d194"><Timestamp>2022-06-09 07:08:27</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0aa818e0-ccd2-4470-9327-b9744e2ab798" Target="#_21d63476-4cca-41bd-8420-e227bfa97caa"><Timestamp>2022-06-09 07:11:59</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
