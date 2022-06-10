@@ -67,7 +67,7 @@
         "show" : true,
         "field" : "DIRECTORY",
         "name" : "FILE_PATH",
-        "value" : "\"C:/Talend-Studio-20211109_1610-V8.0.1/Talend-Studio-20211109_1610-V8.0.1/workspace/.metadata\"",
+        "value" : "\"E:/TalendStudio/workspace/.metadata\"",
         "contextMode" : false
       }, {
         "show" : true,
@@ -180,7 +180,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS",
-        "value" : "enc:system.encryption.key.v1:4nK/Ti9K5CCZk4ocQe3pUs6c+SHkToCttDLuP0dn",
+        "value" : "enc:system.encryption.key.v1:u3BYU/lqXyvynvrVaqPz0VsYLBJBJWiIyrKQmSMu",
         "contextMode" : false
       }, {
         "show" : true,
@@ -388,7 +388,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS_IMPLICIT_CONTEXT",
-        "value" : "enc:system.encryption.key.v1:/qtlDR0prIkjZ92ZmMVw8LpgsC8uFsoWJ4sc5urL",
+        "value" : "enc:system.encryption.key.v1:7FPXwBlaZdUCLJJTg+MIC5Oj7gpxB95CwK/7aTqN",
         "contextMode" : false
       }, {
         "show" : true,
