@@ -1,57 +1,103 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><TalendMetadata:DatabaseConnection xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xmi="http://www.omg.org/XMI" DatabaseType="Hive" DbmsId="hive_id" Password="" Port="10000" ProductId="HIVE" SID="default" ServerName="master-cdp.quandatics.tech" URL="jdbc:hive2://master-cdp.quandatics.tech:10000/default;principal=hive/_HOST@QUANDATICS.TECH" Username="" xmi:id="_dnog0ObkEeylB-iAUCfr7g" xmi:version="2.0">
-  <taggedValue tag="Status" value="" xmi:id="_ceTjkOfcEey8QrB0RA2WUg"/>
-  <taggedValue tag="Version" value="0.1" xmi:id="_ceTjkefcEey8QrB0RA2WUg"/>
-  <taggedValue tag="Purpose" value="" xmi:id="_ceTjkufcEey8QrB0RA2WUg"/>
-  <taggedValue tag="Description" value="" xmi:id="_ceTjk-fcEey8QrB0RA2WUg"/>
-  <taggedValue tag="Author" value="" xmi:id="_ceTjlOfcEey8QrB0RA2WUg"/>
-  <taggedValue tag="otherParameter" xmi:id="_ceTjlefcEey8QrB0RA2WUg"/>
-  <parameters key="CONN_PARA_KEY_USE_YARN" value="true" xmi:id="_dnog0ebkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="master-cdp.quandatics.tech:8030" xmi:id="_dnog0ubkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_USEKEYTAB" value="true" xmi:id="_dnog0-bkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true" xmi:id="_dnog1ObkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://master-cdp.quandatics.tech:8020" xmi:id="_dnog1ebkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_USERNAME" value="" xmi:id="_dnog1ubkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_WKFxMObkEeylB-iAUCfr7g" xmi:id="_dnog1-bkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@QUANDATICS.TECH" xmi:id="_dnog2ObkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_HBASE_VERSION" value="Cloudera_CDP7_1_1_0_565" xmi:id="_dnog2ebkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_JOB_TRACKER_URL" value="master-cdp.quandatics.tech:8032" xmi:id="_dnog2ubkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="master-cdp.quandatics.tech:10020" xmi:id="_dnog2-bkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDP7_1_1_0_565" xmi:id="_dnog3ObkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true" xmi:id="_dnog3ebkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_DB_SERVER" value="master-cdp.quandatics.tech" xmi:id="_dnog3ubkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_HIVE_GOOGLE_PROJECT_ID" xmi:id="_dnog3-bkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_HIVE_GOOGLE_CLUSTER_ID" xmi:id="_dnog4ObkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_DB_TYPE" value="Hive" xmi:id="_dnog4ebkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false" xmi:id="_dnog4ubkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_HIVE_AUTHENTICATION_PATH_TO_GOOGLE_CREDENTIALS" xmi:id="_dnog4-bkEeylB-iAUCfr7g"/>
-  <parameters key="HIVE_AUTHENTICATION_HIVEPRINCIPLA" value="hive/_HOST@QUANDATICS.TECH" xmi:id="_dnog5ObkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@QUANDATICS.TECH" xmi:id="_dnog5ebkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_HIVE_AUTHENTICATION_DEFINE_PATH_TO_GOOGLE_CREDENTIALS" xmi:id="_dnog5ubkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="CLOUDERA" xmi:id="_dnog5-bkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_MAPRDB_VERSION" value="Cloudera_CDP7_1_1_0_565" xmi:id="_dnog6ObkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="CLOUDERA" xmi:id="_dnog6ebkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_HIVE_GOOGLE_REGION" xmi:id="_dnog6ubkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_USE_KRB" value="true" xmi:id="_dnog6-bkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="CLOUDERA" xmi:id="_dnog7ObkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user" xmi:id="_dnog7ebkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="hdfs/_HOST@QUANDATICS.TECH" xmi:id="_dnog7ubkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_DB_PRODUCT" value="HIVE" xmi:id="_dnog7-bkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false" xmi:id="_dnog8ObkEeylB-iAUCfr7g"/>
-  <parameters key="HIVE_AUTHENTICATION_METASTOREURL" value="thrift://master-cdp.quandatics.tech:9083" xmi:id="_dnog8ebkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_HIVE_GOOGLE_JARS_BUCKET" xmi:id="_dnog8ubkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false" xmi:id="_dnog8-bkEeylB-iAUCfr7g"/>
-  <parameters key="HIVE_SERVER_VERSION" value="HIVE2" xmi:id="_dnog9ObkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE" xmi:id="_dnog9ebkEeylB-iAUCfr7g"/>
-  <parameters key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value="gh.chow@QUANDATICS.TECH" xmi:id="_8eqdYOb6EeyBf_yYFOrxlA"/>
-  <parameters key="CONN_PARA_KEY_KEYTAB" value="C:/gh.chow.keytab" xmi:id="_8eqdYeb6EeyBf_yYFOrxlA"/>
-  <parameters key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS" xmi:id="_8errgOb6EeyBf_yYFOrxlA"/>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f8151317-5c71-44c7-ac44-eeeb4d9e4405"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rFT/Q8Saq5OeZIZFjLxbvnfGvnZ++Qw7GZ75g6YRwBbbRBSzMvmZ+Z3ImxConLtduNt/EfKTFigy&#13;
-vfpE4orXaw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6dde6a63-507a-4dcb-8f44-d806ea176de6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>DwE6j9oBlFaZiq7+aq0kkxrMi0t7aIOqxlwaqzjGJuUIxvnwYcpfeHC9H+vyMqu1Lrds6oBWuxKq&#13;
-y1ZMpRdmww==</DigestValue></Reference></SignedInfo><SignatureValue>esKSYVSvaY6qo1+zcqiQlFo0Lo4O20HSU7GRrvf3v0fipOx4g15yzNmP74GBGnlIEVC0Ph0ocYx5&#13;
-RZ6jGJrf9q2rN6f5vhjhhDoNtk5yE10HdpqLgWIA+TYjC30w+mn3v5WfCv8QhmALKYB8uIFrcwWz&#13;
-8djo4VbdbN2rmmZyIlEK6ipp55YZcLiWsFQDeQeTOBf+N+dosbbBfryn0zwNV5t+7Hc5l/t1NjfR&#13;
-TL0zsQCrxPo5+V0VihsxAk9uywsYZPlOXQiEnXZOdCAm7STsjwBoFp9HFOmxq3vg5xq6zQ3kPAAb&#13;
-rPWe5QIP4JALkhAs3U5afXvu5QghMl4ylDOYGw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection DatabaseType="Hive" DbmsId="hive_id" DriverClass="org.apache.hadoop.hive.jdbc.HiveDriver" NullChar="" Password="enc:system.encryption.key.v1:H9MZjw4dvV0+gzQn3gr8jqBBumzFxyJURKw4wZx/g1dj" Port="10000" ProductId="HIVE" SID="default" SQLMode="false" ServerName="master-cdp.quandatics.tech" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:hive2://master-cdp.quandatics.tech:10000/default;principal=hive/_HOST@QUANDATICS.TECH" UiSchema="default" Username="admin" dataPackage="_PYGI8OilEeyTRMAwHQzC5A" dbVersionString="STANDALONE" id="_dm0BcObkEeylB-iAUCfr7g" label="CDP_HIVE" name="CDP_HIVE" xmi:id="_dnog0ObkEeylB-iAUCfr7g">
+    <taggedValue tag="Status" value="" xmi:id="_659IEOhoEeyKvKMcYIaoVg"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_659IEehoEeyKvKMcYIaoVg"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_659IEuhoEeyKvKMcYIaoVg"/>
+    <taggedValue tag="Description" value="" xmi:id="_659IE-hoEeyKvKMcYIaoVg"/>
+    <taggedValue tag="Author" value="" xmi:id="_659IFOhoEeyKvKMcYIaoVg"/>
+    <taggedValue tag="otherParameter" xmi:id="_659IFehoEeyKvKMcYIaoVg"/>
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_KrhjYOhpEeyKvKMcYIaoVg"/>
+    <taggedValue tag="DB ProductName" value="Apache Hive" xmi:id="_PHbPsOilEeyTRMAwHQzC5A"/>
+    <taggedValue tag="DB ProductVersion" value="3.1.3000.7.1.7.0-551" xmi:id="_PHbPseilEeyTRMAwHQzC5A"/>
+    <parameters key="CONN_PARA_KEY_USE_YARN" value="true" xmi:id="_dnog0ebkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="master-cdp.quandatics.tech:8030" xmi:id="_dnog0ubkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_USEKEYTAB" value="true" xmi:id="_dnog0-bkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true" xmi:id="_dnog1ObkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://master-cdp.quandatics.tech:8020" xmi:id="_dnog1ebkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="" xmi:id="_dnog1ubkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_WKFxMObkEeylB-iAUCfr7g" xmi:id="_dnog1-bkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@QUANDATICS.TECH" xmi:id="_dnog2ObkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_HBASE_VERSION" value="Cloudera_CDP7_1_1_0_565" xmi:id="_dnog2ebkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_JOB_TRACKER_URL" value="master-cdp.quandatics.tech:8032" xmi:id="_dnog2ubkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="master-cdp.quandatics.tech:10020" xmi:id="_dnog2-bkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDP7_1_1_0_565" xmi:id="_dnog3ObkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true" xmi:id="_dnog3ebkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_DB_SERVER" value="master-cdp.quandatics.tech" xmi:id="_dnog3ubkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_HIVE_GOOGLE_PROJECT_ID" value="" xmi:id="_dnog3-bkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_HIVE_GOOGLE_CLUSTER_ID" value="" xmi:id="_dnog4ObkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_DB_TYPE" value="Hive" xmi:id="_dnog4ebkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false" xmi:id="_dnog4ubkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_HIVE_AUTHENTICATION_PATH_TO_GOOGLE_CREDENTIALS" xmi:id="_dnog4-bkEeylB-iAUCfr7g"/>
+    <parameters key="HIVE_AUTHENTICATION_HIVEPRINCIPLA" value="hive/_HOST@QUANDATICS.TECH" xmi:id="_dnog5ObkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@QUANDATICS.TECH" xmi:id="_dnog5ebkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_HIVE_AUTHENTICATION_DEFINE_PATH_TO_GOOGLE_CREDENTIALS" xmi:id="_dnog5ubkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="CLOUDERA" xmi:id="_dnog5-bkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_VERSION" value="Cloudera_CDP7_1_1_0_565" xmi:id="_dnog6ObkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="CLOUDERA" xmi:id="_dnog6ebkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_HIVE_GOOGLE_REGION" value="" xmi:id="_dnog6ubkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_USE_KRB" value="true" xmi:id="_dnog6-bkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="CLOUDERA" xmi:id="_dnog7ObkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user" xmi:id="_dnog7ebkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="hdfs/_HOST@QUANDATICS.TECH" xmi:id="_dnog7ubkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_DB_PRODUCT" value="HIVE" xmi:id="_dnog7-bkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false" xmi:id="_dnog8ObkEeylB-iAUCfr7g"/>
+    <parameters key="HIVE_AUTHENTICATION_METASTOREURL" value="thrift://master-cdp.quandatics.tech:9083" xmi:id="_dnog8ebkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_HIVE_GOOGLE_JARS_BUCKET" value="" xmi:id="_dnog8ubkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false" xmi:id="_dnog8-bkEeylB-iAUCfr7g"/>
+    <parameters key="HIVE_SERVER_VERSION" value="HIVE2" xmi:id="_dnog9ObkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE" xmi:id="_dnog9ebkEeylB-iAUCfr7g"/>
+    <parameters key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value="gh.chow@QUANDATICS.TECH" xmi:id="_8eqdYOb6EeyBf_yYFOrxlA"/>
+    <parameters key="CONN_PARA_KEY_KEYTAB" value="C:/Users/Quandatics/Desktop/gh.chow.keytab" xmi:id="_8eqdYeb6EeyBf_yYFOrxlA"/>
+    <parameters key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS" xmi:id="_8errgOb6EeyBf_yYFOrxlA"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="_Kn95EOhpEeyKvKMcYIaoVg"/>
+    <parameters key="HIVE_AUTHENTICATION_DRIVERCLASS" value="" xmi:id="_KpotAOhpEeyKvKMcYIaoVg"/>
+    <parameters key="HIVE_AUTHENTICATION_USERNAME" value="" xmi:id="_KpotAehpEeyKvKMcYIaoVg"/>
+    <parameters key="HIVE_AUTHENTICATION_PASSWORD" value="" xmi:id="_KpotAuhpEeyKvKMcYIaoVg"/>
+    <parameters key="HIVE_EXECUTION_ENGINE" xmi:id="_Kpwo0OhpEeyKvKMcYIaoVg"/>
+    <parameters key="CONN_PARA_KEY_USE_SSL" value="false" xmi:id="_KqBukuhpEeyKvKMcYIaoVg"/>
+    <parameters key="CONN_PARA_KEY_NEED_CLIENT_AUTH" value="false" xmi:id="_KqBuk-hpEeyKvKMcYIaoVg"/>
+    <parameters key="CONN_PARA_KEY_DISABLE_CBC_PROTECTION" value="false" xmi:id="_KqBulOhpEeyKvKMcYIaoVg"/>
+    <parameters key="CONN_PARA_KEY_HIVE_THRIFTPORT" value="9083" xmi:id="_KseloOhpEeyKvKMcYIaoVg"/>
+    <parameters key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value="" xmi:id="_o0s0QOinEeyHaaref7ndoA"/>
+    <parameters key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value="" xmi:id="_o0s0QeinEeyHaaref7ndoA"/>
+    <parameters key="CONN_PARA_KEY_SSL_KEY_STORE_PATH" value="" xmi:id="_o0s0QuinEeyHaaref7ndoA"/>
+    <parameters key="CONN_PARA_KEY_SSL_KEY_STORE_PASSWORD" value="" xmi:id="_o0s0Q-inEeyHaaref7ndoA"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema dataManager="_dnog0ObkEeylB-iAUCfr7g" name="default" xmi:id="_PYGI8OilEeyTRMAwHQzC5A">
+    <ownedElement id="_7OMmAOilEeyTRMAwHQzC5A" label="data" name="data" tableType="TABLE" xmi:id="_7OlnkOilEeyTRMAwHQzC5A" xsi:type="relational:TdTable"/>
+    <ownedElement id="_7OYMMOilEeyTRMAwHQzC5A" label="branchcode" name="branchcode" tableType="TABLE" xmi:id="_7OlnkeilEeyTRMAwHQzC5A" xsi:type="relational:TdTable"/>
+    <ownedElement id="_7Ob2kOilEeyTRMAwHQzC5A" label="customeraddress" name="customeraddress" tableType="TABLE" xmi:id="_7OlnkuilEeyTRMAwHQzC5A" xsi:type="relational:TdTable"/>
+    <ownedElement id="_7Ofg8OilEeyTRMAwHQzC5A" label="customerinfo" name="customerinfo" tableType="TABLE" xmi:id="_7Olnk-ilEeyTRMAwHQzC5A" xsi:type="relational:TdTable"/>
+    <ownedElement id="_7OikQOilEeyTRMAwHQzC5A" label="agentcode" name="agentcode" tableType="TABLE" xmi:id="_7OlnlOilEeyTRMAwHQzC5A" xsi:type="relational:TdTable">
+      <feature label="agent_code" length="10" name="agent_code" sourceType="STRING" talendType="id_String" xmi:id="_8OSxEOilEeyTRMAwHQzC5A" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="" xmi:id="_8OSxEeilEeyTRMAwHQzC5A"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_8OSxEuilEeyTRMAwHQzC5A" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_8OSxE-ilEeyTRMAwHQzC5A"/>
+      </feature>
+      <feature label="agent_name" length="256" name="agent_name" sourceType="STRING" talendType="id_String" xmi:id="_8OSxFOilEeyTRMAwHQzC5A" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="" xmi:id="_8OSxFeilEeyTRMAwHQzC5A"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_8OSxFuilEeyTRMAwHQzC5A" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_8OSxF-ilEeyTRMAwHQzC5A"/>
+      </feature>
+      <feature label="gender" length="10" name="gender" sourceType="STRING" talendType="id_String" xmi:id="_8OSxGOilEeyTRMAwHQzC5A" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="" xmi:id="_8OSxGeilEeyTRMAwHQzC5A"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_8OSxGuilEeyTRMAwHQzC5A" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_8OSxG-ilEeyTRMAwHQzC5A"/>
+      </feature>
+      <feature label="agent_phone" length="20" name="agent_phone" sourceType="STRING" talendType="id_String" xmi:id="_8OSxHOilEeyTRMAwHQzC5A" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="" xmi:id="_8OSxHeilEeyTRMAwHQzC5A"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_8OSxHuilEeyTRMAwHQzC5A" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_8OSxH-ilEeyTRMAwHQzC5A"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_73d5e90c-747d-4eee-b07a-3593439b37d5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>EId6z7i6ts0eu5/1X9X99l90BB+aF9ypywu/9S/EO6TvJKxBlZeZtmgngWgsodx5xaYg5zV993VU&#13;
+ZCA2goyIkA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_32b463e8-70bb-4180-b484-621285b7a68a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>fUG3dqOSyIEsHUfWDdch0LXJpaVjvp1lb8+afsSJ2xXhfbZjw2bXYVrJIJJWDMwwPes+aigOmeas&#13;
+PkFtzVKW9g==</DigestValue></Reference></SignedInfo><SignatureValue>pK6nYUUbxl8AO8fxF/b9Vi4+JIUku2QkYCbPcFmIlJd79zaq4e9PG84whKtQHqTIFcpphbN2ecbX&#13;
+OojZNgofJ9plg3paJSNuLicDQwocItMXesbp4wpn0uXDHoKMZz8c4QrJ6rQzKLMCrn3/XFre/MhW&#13;
+Wot0FUPGvrUUnfcUQqzqhGhdqjnS6u5tEcOIabVXfnEjTZKpbPS1tKlK2AzheEN0+PDvVvs5a9P/&#13;
+SPLEiOH9CYOI4KDk2lm4QCc9sUmLJNTdvfpH0xlKntRIW1tqHJ5o1I/h8Vbk4c+trWmg1Pu2mEL2&#13;
+R2ncWg1fXqLhbboCXNQFAQ548liXRXgYuCD93w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -73,4 +119,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6dde6a63-507a-4dcb-8f44-d806ea176de6" Target="#_f8151317-5c71-44c7-ac44-eeeb4d9e4405"><Timestamp>2022-06-10 09:47:04</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></TalendMetadata:DatabaseConnection>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_32b463e8-70bb-4180-b484-621285b7a68a" Target="#_73d5e90c-747d-4eee-b07a-3593439b37d5"><Timestamp>2022-06-10 09:55:38</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
