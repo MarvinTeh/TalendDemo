@@ -45,7 +45,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:K/IBiY995Kmvx4a9jbIe/OwPOV5jgyQMG1wdLeb7"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:HmXeMrqhjQ0YcJjVqMrpeu725aNORSFirp9u0Nme"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -80,7 +80,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:KCXTRACN807pK8IkZuAtmvrK+gvdpPcMhtTlt+CS"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:8KaWCaStfW67O/98Kdg3d29gPU9xEFK27l5bft+o"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -134,7 +134,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;MAMPU_POC&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" value="&quot;quandatics&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:bztboS5gyIFAmXyv+L8XpowfF503OqN+a0jEwQUedGJFg158kQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:hprZmBQXBpgx+N63ID6a237n14MySUnZEaVT+6oNxfIo0hvWmg=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_TB4ykOYSEeyC4ZO0YgbGgw - GA_TRANSACTION"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;GA_TRANSACTION&quot;"/>
@@ -142,7 +142,7 @@
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  `GA_TRANSACTION`.`CLIENTID`, &#10;  `GA_TRANSACTION`.`VISITNUMBER`, &#10;  `GA_TRANSACTION`.`VISITID`, &#10;  `GA_TRANSACTION`.`VISITSTARTTIME`, &#10;  `GA_TRANSACTION`.`DATE`, &#10;  `GA_TRANSACTION`.`TOTALS_HITS`, &#10;  `GA_TRANSACTION`.`TOTALS_TIMEONSITE`, &#10;  `GA_TRANSACTION`.`TOTALS_PAGEVIEWS`, &#10;  `GA_TRANSACTION`.`DEVICE_BROWSER`, &#10;  `GA_TRANSACTION`.`DEVICE_BROWSERVERSION`, &#10;  `GA_TRANSACTION`.`DEVICE_OPERATINGSYSTEM`, &#10;  `GA_TRANSACTION`.`DEVICE_OPERATINGSYSTEMVERSION`, &#10;  `GA_TRANSACTION`.`DEVICE_MOBILEDEVICEBRANDING`, &#10;  `GA_TRANSACTION`.`DEVICE_MOBILEDEVICEMODEL`, &#10;  `GA_TRANSACTION`.`DEVICE_MOBILEDEVICEINFO`, &#10;  `GA_TRANSACTION`.`DEVICE_DEVICECATEGORY`, &#10;  `GA_TRANSACTION`.`GEONETWORK_CITYID`, &#10;  `GA_TRANSACTION`.`GEONETWORK_CITY`, &#10;  `GA_TRANSACTION`.`GEONETWORK_REGION`, &#10;  `GA_TRANSACTION`.`GEONETWORK_COUNTRY`&#10;FROM `GA_TRANSACTION`&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  `GA_TRANSACTION`.`CLIENTID`, &#10;  `GA_TRANSACTION`.`VISITNUMBER`, &#10;  `GA_TRANSACTION`.`VISITID`, &#10;  `GA_TRANSACTION`.`VISITSTARTTIME`, &#10;  `GA_TRANSACTION`.`DATE`, &#10;  `GA_TRANSACTION`.`TOTALS_HITS`, &#10;  `GA_TRANSACTION`.`TOTALS_TIMEONSITE`, &#10;  `GA_TRANSACTION`.`TOTALS_PAGEVIEWS`, &#10;  `GA_TRANSACTION`.`DEVICE_BROWSER`, &#10;  `GA_TRANSACTION`.`DEVICE_BROWSERVERSION`, &#10;  `GA_TRANSACTION`.`DEVICE_OPERATINGSYSTEM`, &#10;  `GA_TRANSACTION`.`DEVICE_OPERATINGSYSTEMVERSION`, &#10;  `GA_TRANSACTION`.`DEVICE_MOBILEDEVICEBRANDING`, &#10;  `GA_TRANSACTION`.`DEVICE_MOBILEDEVICEMODEL`, &#10;  `GA_TRANSACTION`.`DEVICE_MOBILEDEVICEINFO`, &#10;  `GA_TRANSACTION`.`DEVICE_DEVICECATEGORY`, &#10;  `GA_TRANSACTION`.`GEONETWORK_CITYID`, &#10;  `GA_TRANSACTION`.`GEONETWORK_CITY`, &#10;  `GA_TRANSACTION`.`GEONETWORK_REGION`, &#10;  `GA_TRANSACTION`.`GEONETWORK_COUNTRY`&#10;FROM `GA_TRANSACTION`&#13;&#10;Where DATE='&quot;+((String)globalMap.get(&quot;QueryDate&quot;))+&quot;'&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -1267,8 +1267,8 @@
     <elementParameter field="TEXT" name="FS_DEFAULT_NAME" value="&quot;hdfs://master-cdp.quandatics.tech:8020&quot;"/>
     <elementParameter field="TEXT" name="ADLS_FS_DEFAULT_NAME" show="false" value="&quot;adl://account.azuredatalakestore.net&quot;"/>
     <elementParameter field="TEXT" name="ADLS_CLIENT_ID" show="false" value="&quot;XXXX&quot;"/>
-    <elementParameter field="PASSWORD" name="ADLS_AUTH_TOKEN_ENDPOINT" show="false" value="enc:system.encryption.key.v1:GR3rUpMSIDbhsEIUHufqCDI6VdRGXDoltfQfMSMS05BaCwlfeClTKNHT4amrT+TyghBEW+kay0YUgdrBUMPqXUROD+nGN4yJh3/S46vgBgg="/>
-    <elementParameter field="PASSWORD" name="ADLS_CLIENT_KEY" show="false" value="enc:system.encryption.key.v1:EiCaP6ItsabggOseqNKzSIYOd3i6WnXkN4UT+RBRMXovrg=="/>
+    <elementParameter field="PASSWORD" name="ADLS_AUTH_TOKEN_ENDPOINT" show="false" value="enc:system.encryption.key.v1:NtZEE7aWGfQSsDD1qz3vw6rDlD57R/54ES1cEu0GzRTPRPkFI2aDceD5uJStVxnMyjlVs41h9pYnCeqU4reNhqoZilGCrWfCgNVF3Xk2/C0="/>
+    <elementParameter field="PASSWORD" name="ADLS_CLIENT_KEY" show="false" value="enc:system.encryption.key.v1:gcq/DV2LeH3NZswaexTM8DQdZWlqOl/kFfZ5UyypMcRh8w=="/>
     <elementParameter field="CHECK" name="USE_DATANODE_HOSTNAME" value="true"/>
     <elementParameter field="CHECK" name="USE_KRB" value="true"/>
     <elementParameter field="TEXT" name="NAMENODE_PRINCIPAL" value="&quot;hdfs/_HOST@QUANDATICS.TECH&quot;"/>
@@ -1278,7 +1278,7 @@
     <elementParameter field="CHECK" name="USE_MAPRTICKET" show="false" value="false"/>
     <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;anonymous&quot;"/>
     <elementParameter field="TEXT" name="GROUP" show="false" value="&quot;supergroup&quot;"/>
-    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:MiTWMOwQAzeaflkUTNkhVwAIvDeioLOzdV6jz+/r"/>
+    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:oD5jixObeXyROCOuVgKNWEjFpa24jaEBoC+N3S9U"/>
     <elementParameter field="TEXT" name="MAPRTICKET_CLUSTER" show="false" value="&quot;demo.mapr.com&quot;"/>
     <elementParameter field="TEXT" name="MAPRTICKET_DURATION" show="false" value=""/>
     <elementParameter field="BOTH_HADOOP" name="FILENAME" value="&quot;/data/raw/GA_TRANSACTION_&quot;+((String)globalMap.get(&quot;QueryDate&quot;))+&quot;.txt&quot;"/>
@@ -1781,13 +1781,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_972b1145-c12d-4655-a48a-b424503c1e6b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8sqnKXmhiuwc1mpem5mDSwu3vRY38bidkm/HIpEZyOp5c4EPNMj7Plqo2egu+QbawdIKzLXtoe0Y&#13;
-aWN0DTBR9Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f5f50f89-fae3-42b9-bc9e-f50e3dc31000"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>v/oa3hgM9pi/QTejJFfAxaBfcknWU+GYamFpN/rLI1gPZTY6T79eDZuDyRUEBXG3zqNGyUORehLh&#13;
-D3QbF08JIQ==</DigestValue></Reference></SignedInfo><SignatureValue>UxMT6OK+aLEKIaO6KM6Uwzmf6ogh+3BS1nsAgm5WE+LrSSwipbDwAAGWllnk5nncLXBBR1KRhOyn&#13;
-3u6ZyvmIuFCOJNoF97IpuTMQwJSwQYH5eptxRUiGuL3GpeN8TWRaoiminQ3FRai1TecP9NSl2GXf&#13;
-oyHr2MhvcDui5YWsZn4yujdnfQ9CDmrAoiH9JCmIck5MwUKm1KhCjX4218jRbhrn6WtkL08WEYQo&#13;
-YjoPhWPUHQhW80UvZtWzJI9stQV4VT2ASDCV4Gspk23rs+OE8/+pV4TqY/VuOvaw3+DUeOAmaRTX&#13;
-pBCZ/TGAy0ZSmwn2Ol+F2U5gJgIsPrstXEh+MA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0cf0a1d3-2b66-42b0-b0c3-c3618e8b994f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>2jHsc4PlHcxQfjza3KaV3AbT9yicJJKWA6BmJCNRpmCpJuOe3ijapkqh44reGCEBNzQpApDd6ys4&#13;
+tmC08flgOg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_af71f6ca-6482-486e-abe7-c0ec2bc518a9"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>WvGNh78fBGvFSCJMwvC+RogWBxIWJkJIkDK3RtE9r2Jf9ak7Emt65/xerMDLYWFbH7iRTPUwdu6W&#13;
+isHZTKNnfg==</DigestValue></Reference></SignedInfo><SignatureValue>i5nxUzVo+DbYuSHTafe2ZUclb14IYLCIU2oHvNOxxwn87XwAxFNXfz1lOjeGf8aVk+DK16ZjNAiN&#13;
+zQILLVCTprR3wdVsx7P8QAp/2coSKMWM2Ue5B3p6BCGxJcylFeD7Y2OeNHGoic2eZYCrbx/o1lJC&#13;
+EFkTXLGjCreL8iPB3GM44DrtZ/gvtkXFEIW9QZWBt6fWvumdTHiIBa0vgkvUt+1uYwzscOXy8zJ+&#13;
+VU0wL//cp3AuWZE3PAZvv9V6uKgVFtug7+momJkPkx8QU/WUMlpms6DVPHY1KPYQfJf9uUSEKV5Z&#13;
+YYhUgl0dRCbWjwWVTWrJ58VNbk3k3+iXO/EmLg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1809,4 +1809,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f5f50f89-fae3-42b9-bc9e-f50e3dc31000" Target="#_972b1145-c12d-4655-a48a-b424503c1e6b"><Timestamp>2022-06-10 01:11:02</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_af71f6ca-6482-486e-abe7-c0ec2bc518a9" Target="#_0cf0a1d3-2b66-42b0-b0c3-c3618e8b994f"><Timestamp>2022-06-10 03:48:42</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
