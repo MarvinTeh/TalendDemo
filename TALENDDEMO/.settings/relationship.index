@@ -4,11 +4,7 @@
     "version" : "0.1",
     "type" : "dbConnection"
   },
-  "relatedItems" : [ {
-    "id" : "Cloudera_CDP7_1_7_1000_141_dynamic_20220608172054905_0800",
-    "version" : "Latest",
-    "type" : "dynamicDistribution"
-  } ]
+  "relatedItems" : [ ]
 }, {
   "baseItem" : {
     "id" : "_WKFxMObkEeylB-iAUCfr7g",
