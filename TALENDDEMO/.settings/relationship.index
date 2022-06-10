@@ -35,11 +35,23 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "Cloudera_CDP7_1_7_1000_141_dynamic_20220608172054905_0800",
+    "version" : "Latest",
+    "type" : "dynamicDistribution"
+  }, {
     "id" : "_3J4r4OcMEeyU__iQ8Q2A7A",
     "version" : "Latest",
     "type" : "property"
   }, {
     "id" : "_OJkp0OcEEeyU__iQ8Q2A7A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dm0BcObkEeylB-iAUCfr7g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dnfW4ObkEeylB-iAUCfr7g",
     "version" : "Latest",
     "type" : "property"
   }, {
