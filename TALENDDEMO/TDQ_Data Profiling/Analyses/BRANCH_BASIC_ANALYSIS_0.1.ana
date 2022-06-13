@@ -19,7 +19,7 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_BRTtuOrEEeyNi43YQ8vFwA"/>
     </context>
     <results xmi:id="_QAt2h-rGEeyNi43YQ8vFwA">
-      <resultMetadata xmi:id="_QAt2iOrGEeyNi43YQ8vFwA" executionDate="2022-06-13T10:58:57.377+0800" executionDuration="26235" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1" outThreshold="true"/>
+      <resultMetadata xmi:id="_QAt2iOrGEeyNi43YQ8vFwA" executionDate="2022-06-13T11:01:46.449+0800" executionDuration="22934" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2" outThreshold="true"/>
       <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_bgLuBOrHEeyNi43YQ8vFwA" count="397" computed="true" distinctValueCount="397">
         <parameters xmi:id="_bgMVEOrHEeyNi43YQ8vFwA">
           <indicatorValidDomain xmi:id="_bgMVEerHEeyNi43YQ8vFwA" name="Indicator threshold">
@@ -109,7 +109,7 @@
           <sqlGenericExpression xmi:id="_d0wYt-rHEeyNi43YQ8vFwA" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> = '' or RTRIM(LTRIM(&lt;%=__COLUMN_NAMES__%>)) = '') &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_7-7b0OrIEeyNi43YQ8vFwA">
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_7-7b0OrIEeyNi43YQ8vFwA" count="397" computed="true">
         <parameters xmi:id="_7-7b0erIEeyNi43YQ8vFwA"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_BRTtsOrEEeyNi43YQ8vFwA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
@@ -138,7 +138,7 @@
         </parameters>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_BRTtsOrEEeyNi43YQ8vFwA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
-        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_d1xFVurHEeyNi43YQ8vFwA" body="SELECT COUNT(CASE WHEN `branch_id` REGEXP 'B\d{4}' THEN 1 END), COUNT(*) FROM `default`.`branchcode` " language="Hive"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_d1xFVurHEeyNi43YQ8vFwA" body="SELECT COUNT(CASE WHEN `branch_id` REGEXP '^B\d{4}$' THEN 1 END), COUNT(*) FROM `default`.`branchcode` " language="Hive"/>
       </indicators>
       <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_bgMVPOrHEeyNi43YQ8vFwA" count="397" computed="true" blankCount="1">
         <parameters xmi:id="_bgMVPerHEeyNi43YQ8vFwA"/>
@@ -155,10 +155,11 @@
           <sqlGenericExpression xmi:id="_d1G-B-rHEeyNi43YQ8vFwA" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> = '' or RTRIM(LTRIM(&lt;%=__COLUMN_NAMES__%>)) = '') &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_7-7b0urIEeyNi43YQ8vFwA">
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_7-7b0urIEeyNi43YQ8vFwA" count="397" computed="true">
         <parameters xmi:id="_7-7b0-rIEeyNi43YQ8vFwA"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_BRTttOrEEeyNi43YQ8vFwA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_WjanIOrJEeyNi43YQ8vFwA" body="SELECT COUNT(*) FROM `default`.`branchcode` WHERE `b_location` IS NULL " language="Hive"/>
         <builtInIndicatorDefinition xmi:id="_8JlzsOrIEeyNi43YQ8vFwA" name="Null Count" label="Null Count">
           <taggedValue xmi:id="_8JlzserIEeyNi43YQ8vFwA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
           <taggedValue xmi:id="_8JlzsurIEeyNi43YQ8vFwA" tag="Description" value="counts the number of null rows"/>
@@ -191,10 +192,11 @@
           <sqlGenericExpression xmi:id="_d1gmp-rHEeyNi43YQ8vFwA" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> = '' or RTRIM(LTRIM(&lt;%=__COLUMN_NAMES__%>)) = '') &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_7-7b1OrIEeyNi43YQ8vFwA">
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_7-7b1OrIEeyNi43YQ8vFwA" count="397" computed="true">
         <parameters xmi:id="_7-7b1erIEeyNi43YQ8vFwA"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_BRTtuOrEEeyNi43YQ8vFwA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_WjanIerJEeyNi43YQ8vFwA" body="SELECT COUNT(*) FROM `default`.`branchcode` WHERE `b_state` IS NULL " language="Hive"/>
         <builtInIndicatorDefinition xmi:id="_8JuWkOrIEeyNi43YQ8vFwA" name="Null Count" label="Null Count">
           <taggedValue xmi:id="_8JuWkerIEeyNi43YQ8vFwA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
           <taggedValue xmi:id="_8JuWkurIEeyNi43YQ8vFwA" tag="Description" value="counts the number of null rows"/>
