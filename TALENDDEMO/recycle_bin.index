@@ -3,5 +3,6 @@
   <deletedItems id="_n14_cOijEeyTRMAwHQzC5A" path="" type="HADOOPCLUSTER"/>
   <deletedItems id="_b7miQOikEeyTRMAwHQzC5A" path="" type="HDFS"/>
   <deletedItems id="_TB4ykOYSEeyC4ZO0YgbGgw" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_bRkpQOrSEeyNi43YQ8vFwA" path="" type="PROCESS"/>
   <deletedItems id="_nxv9oOejEeywRdXl63552Q" path="s1_LoadData" type="PROCESS"/>
 </recyclebin:RecycleBin>
