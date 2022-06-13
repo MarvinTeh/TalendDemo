@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.domain.pattern:Pattern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.domain.pattern="http://dataquality.domain.pattern" xmi:id="_-O-IoOrEEeyNi43YQ8vFwA" name="BranchID_Format">
+  <taggedValue xmi:id="_-O-IoerEEeyNi43YQ8vFwA" tag="Status" value="development"/>
+  <taggedValue xmi:id="_-O-IourEEeyNi43YQ8vFwA" tag="Author" value="daniel.yap@quandatics.com"/>
+  <taggedValue xmi:id="_-O-Io-rEEeyNi43YQ8vFwA" tag="Purpose" value="Matches the format for branch IDs"/>
+  <taggedValue xmi:id="_-O-IpOrEEeyNi43YQ8vFwA" tag="Description"/>
+  <taggedValue xmi:id="_-O-IperEEeyNi43YQ8vFwA" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_-O-IpurEEeyNi43YQ8vFwA" tag="Validation_Status" value="true"/>
+  <components xsi:type="dataquality.domain.pattern:RegularExpression" xmi:id="_-O-Ip-rEEeyNi43YQ8vFwA" expressionType="REGEXP">
+    <expression xmi:id="_-O-IqOrEEeyNi43YQ8vFwA" body="'B\d{4}'" language="SQL"/>
+  </components>
+</dataquality.domain.pattern:Pattern>
