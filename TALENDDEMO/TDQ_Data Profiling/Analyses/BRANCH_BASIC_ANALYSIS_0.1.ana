@@ -19,7 +19,7 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_BRTtuOrEEeyNi43YQ8vFwA"/>
     </context>
     <results xmi:id="_QAt2h-rGEeyNi43YQ8vFwA">
-      <resultMetadata xmi:id="_QAt2iOrGEeyNi43YQ8vFwA" executionDate="2022-06-13T10:48:16.344+0800" executionDuration="26235" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1" outThreshold="true"/>
+      <resultMetadata xmi:id="_QAt2iOrGEeyNi43YQ8vFwA" executionDate="2022-06-13T10:58:57.377+0800" executionDuration="26235" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1" outThreshold="true"/>
       <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_bgLuBOrHEeyNi43YQ8vFwA" count="397" computed="true" distinctValueCount="397">
         <parameters xmi:id="_bgMVEOrHEeyNi43YQ8vFwA">
           <indicatorValidDomain xmi:id="_bgMVEerHEeyNi43YQ8vFwA" name="Indicator threshold">
@@ -113,6 +113,7 @@
         <parameters xmi:id="_7-7b0erIEeyNi43YQ8vFwA"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_BRTtsOrEEeyNi43YQ8vFwA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_8J1rUOrIEeyNi43YQ8vFwA" body="SELECT COUNT(*) FROM `default`.`branchcode` WHERE `branch_id` IS NULL " language="Hive"/>
         <builtInIndicatorDefinition xmi:id="_8Jg7MOrIEeyNi43YQ8vFwA" name="Null Count" label="Null Count">
           <taggedValue xmi:id="_8Jg7MerIEeyNi43YQ8vFwA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
           <taggedValue xmi:id="_8Jg7MurIEeyNi43YQ8vFwA" tag="Description" value="counts the number of null rows"/>
