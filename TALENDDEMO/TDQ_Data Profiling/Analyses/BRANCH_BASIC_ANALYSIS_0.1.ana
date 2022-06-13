@@ -36,8 +36,8 @@
         <parameters xmi:id="_2cShk-rnEey8kIF0exIC1g">
           <indicatorValidDomain xmi:id="_2cShlOrnEey8kIF0exIC1g" name="Indicator threshold">
             <ranges xmi:id="_2cShlernEey8kIF0exIC1g" name="Percentage Threshold">
-              <lowerValue xsi:type="dataquality.domain:TextValue" xmi:id="_--DHQOrnEey8kIF0exIC1g" value="0.0"/>
-              <upperValue xsi:type="dataquality.domain:TextValue" xmi:id="_--DHQernEey8kIF0exIC1g" value=""/>
+              <lowerValue xsi:type="dataquality.domain:TextValue" xmi:id="_Pp4ycOroEey8kIF0exIC1g" value=""/>
+              <upperValue xsi:type="dataquality.domain:TextValue" xmi:id="_Pp4yceroEey8kIF0exIC1g" value="0.0"/>
             </ranges>
           </indicatorValidDomain>
         </parameters>
@@ -54,8 +54,8 @@
         <parameters xmi:id="_2cShmernEey8kIF0exIC1g">
           <indicatorValidDomain xmi:id="_2cShmurnEey8kIF0exIC1g" name="Indicator threshold">
             <ranges xmi:id="_2cShnurnEey8kIF0exIC1g" name="Percentage Threshold">
-              <lowerValue xsi:type="dataquality.domain:TextValue" xmi:id="_ADJHEOroEey8kIF0exIC1g" value="0.0"/>
-              <upperValue xsi:type="dataquality.domain:TextValue" xmi:id="_ADJHEeroEey8kIF0exIC1g" value=""/>
+              <lowerValue xsi:type="dataquality.domain:TextValue" xmi:id="_QihDkOroEey8kIF0exIC1g" value=""/>
+              <upperValue xsi:type="dataquality.domain:TextValue" xmi:id="_QihDkeroEey8kIF0exIC1g" value="0.0"/>
             </ranges>
           </indicatorValidDomain>
         </parameters>
@@ -95,8 +95,8 @@
         <parameters xmi:id="_2cShqernEey8kIF0exIC1g">
           <indicatorValidDomain xmi:id="_2cShqurnEey8kIF0exIC1g" name="Indicator threshold">
             <ranges xmi:id="_2cShq-rnEey8kIF0exIC1g" name="Percentage Threshold">
-              <lowerValue xsi:type="dataquality.domain:TextValue" xmi:id="_2cShrOrnEey8kIF0exIC1g" value="1.0"/>
-              <upperValue xsi:type="dataquality.domain:TextValue" xmi:id="_2cShrernEey8kIF0exIC1g" value=""/>
+              <lowerValue xsi:type="dataquality.domain:TextValue" xmi:id="_NnO-MOroEey8kIF0exIC1g" value="1.0"/>
+              <upperValue xsi:type="dataquality.domain:TextValue" xmi:id="_NnO-MeroEey8kIF0exIC1g" value=""/>
             </ranges>
           </indicatorValidDomain>
           <dataValidDomain xmi:id="_2cShrurnEey8kIF0exIC1g">
@@ -151,8 +151,8 @@
         <parameters xmi:id="_2cTIsOrnEey8kIF0exIC1g">
           <indicatorValidDomain xmi:id="_2cTIsernEey8kIF0exIC1g" name="Indicator threshold">
             <ranges xmi:id="_2cTIsurnEey8kIF0exIC1g" name="Percentage Threshold">
-              <lowerValue xsi:type="dataquality.domain:TextValue" xmi:id="_2cTIs-rnEey8kIF0exIC1g" value="1.0"/>
-              <upperValue xsi:type="dataquality.domain:TextValue" xmi:id="_2cTItOrnEey8kIF0exIC1g" value=""/>
+              <lowerValue xsi:type="dataquality.domain:TextValue" xmi:id="_TzV7IOroEey8kIF0exIC1g" value=""/>
+              <upperValue xsi:type="dataquality.domain:TextValue" xmi:id="_TzV7IeroEey8kIF0exIC1g" value="1.0"/>
             </ranges>
           </indicatorValidDomain>
         </parameters>
@@ -169,8 +169,8 @@
         <parameters xmi:id="_2cTIturnEey8kIF0exIC1g">
           <indicatorValidDomain xmi:id="_2cTvsOrnEey8kIF0exIC1g" name="Indicator threshold">
             <ranges xmi:id="_2cTvsernEey8kIF0exIC1g" name="Percentage Threshold">
-              <lowerValue xsi:type="dataquality.domain:TextValue" xmi:id="_2cTvsurnEey8kIF0exIC1g" value="1.0"/>
-              <upperValue xsi:type="dataquality.domain:TextValue" xmi:id="_2cTvs-rnEey8kIF0exIC1g" value=""/>
+              <lowerValue xsi:type="dataquality.domain:TextValue" xmi:id="_UpangOroEey8kIF0exIC1g" value=""/>
+              <upperValue xsi:type="dataquality.domain:TextValue" xmi:id="_UpangeroEey8kIF0exIC1g" value="1.0"/>
             </ranges>
           </indicatorValidDomain>
         </parameters>
