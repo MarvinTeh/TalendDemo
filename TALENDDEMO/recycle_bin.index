@@ -2,7 +2,6 @@
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
   <deletedItems id="_n14_cOijEeyTRMAwHQzC5A" path="" type="HADOOPCLUSTER"/>
   <deletedItems id="_b7miQOikEeyTRMAwHQzC5A" path="" type="HDFS"/>
-  <deletedItems id="_6IbZ8OrYEeyNi43YQ8vFwA" path="" type="JOBLET"/>
   <deletedItems id="_TB4ykOYSEeyC4ZO0YgbGgw" path="" type="METADATA_CONNECTIONS"/>
   <deletedItems id="_nxv9oOejEeywRdXl63552Q" path="s1_LoadData" type="PROCESS"/>
   <deletedItems id="_bc9LIOrYEeyNi43YQ8vFwA" path="s2_DataQualityProfiling" type="PROCESS"/>
