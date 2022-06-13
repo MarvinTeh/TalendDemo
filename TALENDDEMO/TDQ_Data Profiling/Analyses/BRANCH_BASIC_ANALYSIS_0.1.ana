@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_S9q60OfcEey8QrB0RA2WUg" name="BRANCH_BASIC_ANALYSIS" creationDate="2022-06-09T17:39:49.229+0800" defaultContext="Default">
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/Custom_Rules/BranchID_Format_0.1.pattern#_CAQB4OrFEeyNi43YQ8vFwA"/>
+    <clientDependency href="../../metadata/connections/CDP_HIVE_0.1.item#_fbO5MOrFEeyNi43YQ8vFwA"/>
+    <taggedValue xmi:id="_S9q60efcEey8QrB0RA2WUg" tag="Status" value="development"/>
+    <taggedValue xmi:id="_S9q60ufcEey8QrB0RA2WUg" tag="Author" value="daniel.yap@quandatics.com"/>
+    <taggedValue xmi:id="_S9q60-fcEey8QrB0RA2WUg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_S9q61OfcEey8QrB0RA2WUg" tag="Description" value=""/>
+    <taggedValue xmi:id="_S9q61efcEey8QrB0RA2WUg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_fbNrEOrFEeyNi43YQ8vFwA" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_fbNrEerFEeyNi43YQ8vFwA" tag="PREVIEW_ROW_NUMBER" value="50"/>
+    <taggedValue xmi:id="_fbNrEurFEeyNi43YQ8vFwA" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <taggedValue xmi:id="_fbRVcOrFEeyNi43YQ8vFwA" tag="Is Use Sample Data" value="false"/>
+    <context xmi:id="_S9q61ufcEey8QrB0RA2WUg">
+      <connection href="../../metadata/connections/CDP_HIVE_0.1.item#_dnog0ObkEeylB-iAUCfr7g"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_BRTtsOrEEeyNi43YQ8vFwA"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_BRTttOrEEeyNi43YQ8vFwA"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_BRTtuOrEEeyNi43YQ8vFwA"/>
+    </context>
+    <results xmi:id="_S9rh4OfcEey8QrB0RA2WUg">
+      <resultMetadata xmi:id="_S9rh4efcEey8QrB0RA2WUg"/>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_fbOSIOrFEeyNi43YQ8vFwA" name="BranchID_Format">
+        <parameters xmi:id="_fbOSIerFEeyNi43YQ8vFwA">
+          <dataValidDomain xmi:id="_fbOSIurFEeyNi43YQ8vFwA">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/Custom_Rules/BranchID_Format_0.1.pattern#_-O-IoOrEEeyNi43YQ8vFwA"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_BRTtsOrEEeyNi43YQ8vFwA"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+      </indicators>
+    </results>
+    <parameters xmi:id="_S9rh4ufcEey8QrB0RA2WUg" dataFilter="_fbk3cOrFEeyNi43YQ8vFwA" analysisType="Multiple Column Analysis" sampleDataShowWay="n random rows"/>
+    <contextType xmi:id="_fbNEAOrFEeyNi43YQ8vFwA" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_fbk3cOrFEeyNi43YQ8vFwA" name="BRANCH_BASIC_ANALYSIS">
+    <ranges xmi:id="_fbk3cerFEeyNi43YQ8vFwA">
+      <expressions xmi:id="_fblegOrFEeyNi43YQ8vFwA">
+        <expression xsi:type="relational:TdExpression" xmi:id="_fblegerFEeyNi43YQ8vFwA" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>
