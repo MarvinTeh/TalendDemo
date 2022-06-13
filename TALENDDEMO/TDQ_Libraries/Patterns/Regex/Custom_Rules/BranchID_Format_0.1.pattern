@@ -10,9 +10,6 @@
     <components xsi:type="dataquality.domain.pattern:RegularExpression" xmi:id="_-O-Ip-rEEeyNi43YQ8vFwA" expressionType="REGEXP">
       <expression xmi:id="_-O-IqOrEEeyNi43YQ8vFwA" body="'^B\d{4}$'" language="SQL" modificationDate="2022-06-13 11:01:59"/>
     </components>
-    <components xsi:type="dataquality.domain.pattern:RegularExpression" xmi:id="_VSHXUOrJEeyNi43YQ8vFwA" expressionType="REGEXP">
-      <expression xmi:id="_VSHXUerJEeyNi43YQ8vFwA" body="'^B\d{4}$'" language="Hive" modificationDate="2022-06-13 11:01:37"/>
-    </components>
   </dataquality.domain.pattern:Pattern>
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_CAQB4OrFEeyNi43YQ8vFwA" kind="Usage" supplier="_-O-IoOrEEeyNi43YQ8vFwA">
     <client xsi:type="dataquality.analysis:Analysis" href="../../../../TDQ_Data Profiling/Analyses/BRANCH_BASIC_ANALYSIS_TBD_0.1.ana#_S9q60OfcEey8QrB0RA2WUg"/>
