@@ -4,11 +4,11 @@
     <taggedValue xmi:id="_-O-IoerEEeyNi43YQ8vFwA" tag="Status" value="development"/>
     <taggedValue xmi:id="_-O-IourEEeyNi43YQ8vFwA" tag="Author" value="daniel.yap@quandatics.com"/>
     <taggedValue xmi:id="_-O-Io-rEEeyNi43YQ8vFwA" tag="Purpose" value="Matches the format for branch IDs"/>
-    <taggedValue xmi:id="_-O-IpOrEEeyNi43YQ8vFwA" tag="Description"/>
+    <taggedValue xmi:id="_-O-IpOrEEeyNi43YQ8vFwA" tag="Description" value=""/>
     <taggedValue xmi:id="_-O-IperEEeyNi43YQ8vFwA" tag="Version" value="0.1"/>
     <taggedValue xmi:id="_-O-IpurEEeyNi43YQ8vFwA" tag="Validation_Status" value="true"/>
     <components xsi:type="dataquality.domain.pattern:RegularExpression" xmi:id="_-O-Ip-rEEeyNi43YQ8vFwA" expressionType="REGEXP">
-      <expression xmi:id="_-O-IqOrEEeyNi43YQ8vFwA" body="'B\d{4}'" language="SQL"/>
+      <expression xmi:id="_-O-IqOrEEeyNi43YQ8vFwA" body="'^B\d{4}$'" language="SQL" modificationDate="2022-06-13 10:57:24"/>
     </components>
   </dataquality.domain.pattern:Pattern>
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_CAQB4OrFEeyNi43YQ8vFwA" kind="Usage" supplier="_-O-IoOrEEeyNi43YQ8vFwA">
