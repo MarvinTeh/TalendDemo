@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TalendMetadata:DatabaseConnection xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xmi="http://www.omg.org/XMI" DatabaseType="Hive" DbmsId="hive_id" Port="10000" ProductId="HIVE" SID="default" ServerName="master-cdp.quandatics.tech" URL="jdbc:hive2://master-cdp.quandatics.tech:10000/default;principal=hive/_HOST@QUANDATICS.TECH" Username="" xmi:id="_b7plkOikEeyTRMAwHQzC5A" xmi:version="2.0">
+  <parameters key="CONN_PARA_KEY_USE_YARN" value="true" xmi:id="_b7plkeikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="master-cdp.quandatics.tech:8030" xmi:id="_b7plkuikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_USEKEYTAB" value="true" xmi:id="_b7plk-ikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true" xmi:id="_b7pllOikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://master-cdp.quandatics.tech:8020" xmi:id="_b7plleikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_USERNAME" value="" xmi:id="_b7plluikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_n14_cOijEeyTRMAwHQzC5A" xmi:id="_b7pll-ikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@QUANDATICS.TECH" xmi:id="_b7plmOikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_HBASE_VERSION" value="Cloudera_CDP7_1_1_0_565" xmi:id="_b7plmeikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_JOB_TRACKER_URL" value="master-cdp.quandatics.tech:8032" xmi:id="_b7plmuikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="master-cdp.quandatics.tech:10020" xmi:id="_b7plm-ikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDP7_1_1_0_565" xmi:id="_b7plnOikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true" xmi:id="_b7plneikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_DB_SERVER" value="master-cdp.quandatics.tech" xmi:id="_b7plnuikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_HIVE_GOOGLE_PROJECT_ID" xmi:id="_b7pln-ikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_HIVE_GOOGLE_CLUSTER_ID" xmi:id="_b7ploOikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_DB_TYPE" value="Hive" xmi:id="_b7ploeikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false" xmi:id="_b7plouikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_HIVE_AUTHENTICATION_PATH_TO_GOOGLE_CREDENTIALS" xmi:id="_b7plo-ikEeyTRMAwHQzC5A"/>
+  <parameters key="HIVE_AUTHENTICATION_HIVEPRINCIPLA" value="hive/_HOST@QUANDATICS.TECH" xmi:id="_b7plpOikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@QUANDATICS.TECH" xmi:id="_b7plpeikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_HIVE_AUTHENTICATION_DEFINE_PATH_TO_GOOGLE_CREDENTIALS" xmi:id="_b7plpuikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="CLOUDERA" xmi:id="_b7plp-ikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_MAPRDB_VERSION" value="Cloudera_CDP7_1_1_0_565" xmi:id="_b7plqOikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value="gh.chow@QUANDATICS.tech" xmi:id="_b7plqeikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="CLOUDERA" xmi:id="_b7plquikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_HIVE_GOOGLE_REGION" xmi:id="_b7plq-ikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_USE_KRB" value="true" xmi:id="_b7plrOikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="CLOUDERA" xmi:id="_b7plreikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user" xmi:id="_b7plruikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="hdfs/_HOST@QUANDATICS.TECH" xmi:id="_b7plr-ikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_DB_PRODUCT" value="HIVE" xmi:id="_b7plsOikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_KEYTAB" value="C:/Users/Quandatics/Desktop/Git/Talend Studio/gh.chow.keytab" xmi:id="_b7plseikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false" xmi:id="_b7plsuikEeyTRMAwHQzC5A"/>
+  <parameters key="HIVE_AUTHENTICATION_METASTOREURL" value="thrift://master-cdp.quandatics.tech:9083" xmi:id="_b7pls-ikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_HIVE_GOOGLE_JARS_BUCKET" xmi:id="_b7pltOikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false" xmi:id="_b7plteikEeyTRMAwHQzC5A"/>
+  <parameters key="HIVE_SERVER_VERSION" value="HIVE2" xmi:id="_b7pltuikEeyTRMAwHQzC5A"/>
+  <parameters key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE" xmi:id="_b7plt-ikEeyTRMAwHQzC5A"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_748aeca5-79cc-4e56-98de-fc5d563badb2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GOb4mF9T6/B0LJDXTb96gCeCjG2UcHqzYuI6rZfzG8PEeHrV15fGZz6nOYKjxcm2RSdX4jZ3jvYY&#13;
+HehXv590xw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1f2123b4-ea3d-4551-b69d-37d00f03668c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>O5ebcOSXkBf/vc1UvZ99izUSzDJl5Cv+HN3YiuOeZhxBeTTz8stgFMtX72sFiozECKsPhDtEtLma&#13;
+ZlKfZQMQrQ==</DigestValue></Reference></SignedInfo><SignatureValue>mtzAD7zP4Gc2jLVZeNas2vN5go06N8nPtkiWMoCs0tzGszXTEPUte1+6ANlm+PM9PINg7OX4ewmr&#13;
+kf0B8Xlgdt3f24r0EB/ALVptcvD0NjDO/0SqhjUDeDjXr2K/F/VLsOxhAeCJpVHb42EGcp6iqe7J&#13;
+oMXgKvqhyQrwwODer03rh4nxsx8YOx7VtXjhKypUBgDCyFG+KTfImp/9g+H0HR92sbOT4tEHq3Zt&#13;
+PQ2iG/i2k6GOHmqMX1I1fopk9RkYCzSXYEAlgNWS1tQxf0TNsgX6hugYUYRb7WoUcP/mN/jV045n&#13;
+O2w9U31IM0zOn+kXKFsmUSl2wmjneT8mUPXWYw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1f2123b4-ea3d-4551-b69d-37d00f03668c" Target="#_748aeca5-79cc-4e56-98de-fc5d563badb2"><Timestamp>2022-06-10 09:32:28</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></TalendMetadata:DatabaseConnection>
