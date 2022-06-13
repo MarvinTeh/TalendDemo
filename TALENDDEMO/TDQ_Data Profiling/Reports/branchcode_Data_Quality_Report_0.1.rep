@@ -15,7 +15,7 @@
   <taggedValue xmi:id="_stwwLOrOEeyNi43YQ8vFwA" tag="REP_DBINFO_DBNAME" value="TALEND_DQ"/>
   <taggedValue xmi:id="_stwwLerOEeyNi43YQ8vFwA" tag="REP_DBINFO_SCHEMA" value="MAMPU_POC_DQ"/>
   <taggedValue xmi:id="_stwwLurOEeyNi43YQ8vFwA" tag="REP_DBINFO_USER" value="MK_LIM"/>
-  <taggedValue xmi:id="_stwwL-rOEeyNi43YQ8vFwA" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:QclW5Eb2rcRzT5PgF0lvSy6N1TFM/IZxu2Ud1kQLbJFiy+w9qP6uh/tr"/>
+  <taggedValue xmi:id="_stwwL-rOEeyNi43YQ8vFwA" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:/1vKOG6UqUx4DUhbCg6ENBMDGW6Puw6XsdJKwS6OZdDzXxQAqo984Cmz"/>
   <taggedValue xmi:id="_stwwMOrOEeyNi43YQ8vFwA" tag="REP_DBINFO_PARAMETER" value="CLIENT_RESULT_COLUMN_CASE_INSENSITIVE=true"/>
   <taggedValue xmi:id="_stwwMerOEeyNi43YQ8vFwA" tag="REP_DBINFO_URL" value="jdbc:snowflake://quandatics_partner.ap-southeast-2.snowflakecomputing.com:443/?db=TALEND_DQ&amp;schema=MAMPU_POC_DQ&amp;warehouse=LOAD_WH&amp;CLIENT_RESULT_COLUMN_CASE_INSENSITIVE=true"/>
   <taggedValue xmi:id="_stwwMurOEeyNi43YQ8vFwA" tag="REP_DBINFO_DRIVER" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
