@@ -8,7 +8,7 @@
     <taggedValue xmi:id="_-O-IperEEeyNi43YQ8vFwA" tag="Version" value="0.1"/>
     <taggedValue xmi:id="_-O-IpurEEeyNi43YQ8vFwA" tag="Validation_Status" value="true"/>
     <components xsi:type="dataquality.domain.pattern:RegularExpression" xmi:id="_-O-Ip-rEEeyNi43YQ8vFwA" expressionType="REGEXP">
-      <expression xmi:id="_-O-IqOrEEeyNi43YQ8vFwA" body="'^B\d{4}$'" language="Java" modificationDate="2022-06-13 11:01:35"/>
+      <expression xmi:id="_-O-IqOrEEeyNi43YQ8vFwA" body="'^B\d{4}$'" language="SQL" modificationDate="2022-06-13 11:01:59"/>
     </components>
     <components xsi:type="dataquality.domain.pattern:RegularExpression" xmi:id="_VSHXUOrJEeyNi43YQ8vFwA" expressionType="REGEXP">
       <expression xmi:id="_VSHXUerJEeyNi43YQ8vFwA" body="'^B\d{4}$'" language="Hive" modificationDate="2022-06-13 11:01:37"/>
