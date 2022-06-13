@@ -59,6 +59,6 @@
   <analysisMap xmi:id="_8K3-YOrOEeyNi43YQ8vFwA" mustRefresh="true" reportType="Basic">
     <analysis href="../Analyses/BRANCH_BASIC_ANALYSIS_0.1.ana#_QAt2gOrGEeyNi43YQ8vFwA"/>
   </analysisMap>
-  <ExecInformations xmi:id="_2_zVwOrQEeyNi43YQ8vFwA" executionDate="2022-06-13T11:56:12.538+0800" executionDuration="1881" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
+  <ExecInformations xmi:id="_2_zVwOrQEeyNi43YQ8vFwA" executionDate="2022-06-13T11:58:45.955+0800" executionDuration="2108" executionNumber="3" lastRunOk="true" lastExecutionNumberOk="3"/>
   <context xmi:id="_8K3XU-rOEeyNi43YQ8vFwA" confirmationNeeded="false" name="Default"/>
 </dataquality.reports:TdReport>
