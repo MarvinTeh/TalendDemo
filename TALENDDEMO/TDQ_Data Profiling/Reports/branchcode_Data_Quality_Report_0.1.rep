@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_stwwIOrOEeyNi43YQ8vFwA" name="branchcode Data Quality Report" creationDate="2022-06-13T11:40:02.610+0800">
+  <taggedValue xmi:id="_stwwIerOEeyNi43YQ8vFwA" tag="Status" value="development"/>
+  <taggedValue xmi:id="_stwwIurOEeyNi43YQ8vFwA" tag="Author" value="daniel.yap@quandatics.com"/>
+  <taggedValue xmi:id="_stwwI-rOEeyNi43YQ8vFwA" tag="Purpose"/>
+  <taggedValue xmi:id="_stwwJOrOEeyNi43YQ8vFwA" tag="Description"/>
+  <taggedValue xmi:id="_stwwJerOEeyNi43YQ8vFwA" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_stwwJurOEeyNi43YQ8vFwA" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_stwwJ-rOEeyNi43YQ8vFwA" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_stwwKOrOEeyNi43YQ8vFwA" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_stwwKerOEeyNi43YQ8vFwA" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_stwwKurOEeyNi43YQ8vFwA" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_stwwK-rOEeyNi43YQ8vFwA" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_stwwLOrOEeyNi43YQ8vFwA" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_stwwLerOEeyNi43YQ8vFwA" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_stwwLurOEeyNi43YQ8vFwA" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_stwwL-rOEeyNi43YQ8vFwA" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:k4ECE0VMzb7reXlX1FppYYOQCNJGtWYr0ZgWrw=="/>
+  <taggedValue xmi:id="_stwwMOrOEeyNi43YQ8vFwA" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_stwwMerOEeyNi43YQ8vFwA" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:C:\Users\danie\OneDrive\Documents\Talend 8.0\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_stwwMurOEeyNi43YQ8vFwA" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_stwwM-rOEeyNi43YQ8vFwA" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_stwwNOrOEeyNi43YQ8vFwA" tag="REP_PASSWORD_CONTEXT" value="false"/>
+</dataquality.reports:TdReport>
