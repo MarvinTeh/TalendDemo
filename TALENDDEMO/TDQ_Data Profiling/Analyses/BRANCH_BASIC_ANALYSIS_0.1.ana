@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_QAt2gOrGEeyNi43YQ8vFwA" name="BRANCH_BASIC_ANALYSIS" creationDate="2022-06-13T10:39:34.053+0800">
+  <taggedValue xmi:id="_QAt2gerGEeyNi43YQ8vFwA" tag="Status" value="development"/>
+  <taggedValue xmi:id="_QAt2gurGEeyNi43YQ8vFwA" tag="Author" value="daniel.yap@quandatics.com"/>
+  <taggedValue xmi:id="_QAt2g-rGEeyNi43YQ8vFwA" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_QAt2hOrGEeyNi43YQ8vFwA" tag="Description"/>
+  <taggedValue xmi:id="_QAt2herGEeyNi43YQ8vFwA" tag="Version" value="0.1"/>
+  <context xmi:id="_QAt2hurGEeyNi43YQ8vFwA"/>
+  <results xmi:id="_QAt2h-rGEeyNi43YQ8vFwA">
+    <resultMetadata xmi:id="_QAt2iOrGEeyNi43YQ8vFwA"/>
+  </results>
+  <parameters xmi:id="_QAt2ierGEeyNi43YQ8vFwA" analysisType="Multiple Column Analysis"/>
+</dataquality.analysis:Analysis>
