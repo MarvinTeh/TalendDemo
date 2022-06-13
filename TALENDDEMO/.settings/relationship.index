@@ -108,10 +108,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "Cloudera_CDP7_1_7_1000_141_dynamic_20220608172054905_0800",
-    "version" : "Latest",
-    "type" : "dynamicDistribution"
-  }, {
     "id" : "_TB4ykOYSEeyC4ZO0YgbGgw",
     "version" : "Latest",
     "type" : "property"
