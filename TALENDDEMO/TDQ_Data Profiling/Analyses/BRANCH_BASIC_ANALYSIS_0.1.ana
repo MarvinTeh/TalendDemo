@@ -19,8 +19,8 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_BRTtuOrEEeyNi43YQ8vFwA"/>
     </context>
     <results xmi:id="_QAt2h-rGEeyNi43YQ8vFwA">
-      <resultMetadata xmi:id="_QAt2iOrGEeyNi43YQ8vFwA" executionDate="2022-06-13T11:01:46.449+0800" executionDuration="22934" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2" outThreshold="true"/>
-      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_bgLuBOrHEeyNi43YQ8vFwA" count="397" computed="true" distinctValueCount="397">
+      <resultMetadata xmi:id="_QAt2iOrGEeyNi43YQ8vFwA" executionDate="2022-06-13T11:37:42.212+0800" executionDuration="18612" message="" executionNumber="3" lastRunOk="true" lastExecutionNumberOk="3"/>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_bgLuBOrHEeyNi43YQ8vFwA" count="396" computed="true" distinctValueCount="396">
         <parameters xmi:id="_bgMVEOrHEeyNi43YQ8vFwA">
           <indicatorValidDomain xmi:id="_bgMVEerHEeyNi43YQ8vFwA" name="Indicator threshold">
             <ranges xmi:id="_bgMVEurHEeyNi43YQ8vFwA" name="Value Threshold">
@@ -43,7 +43,7 @@
           <sqlGenericExpression xmi:id="_d0cPo-rHEeyNi43YQ8vFwA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_bgMVGerHEeyNi43YQ8vFwA" count="397" computed="true">
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_bgMVGerHEeyNi43YQ8vFwA" count="396" computed="true">
         <parameters xmi:id="_bgMVGurHEeyNi43YQ8vFwA"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_BRTtsOrEEeyNi43YQ8vFwA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
@@ -54,7 +54,7 @@
           <sqlGenericExpression xmi:id="_d0hvM-rHEeyNi43YQ8vFwA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_bgMVG-rHEeyNi43YQ8vFwA" count="397" computed="true" duplicateValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_bgMVG-rHEeyNi43YQ8vFwA" count="396" computed="true" duplicateValueCount="0">
         <parameters xmi:id="_bgMVHOrHEeyNi43YQ8vFwA">
           <indicatorValidDomain xmi:id="_bgMVHerHEeyNi43YQ8vFwA" name="Indicator threshold">
             <ranges xmi:id="_bgMVHurHEeyNi43YQ8vFwA" name="Value Threshold">
@@ -83,7 +83,7 @@
           <sqlGenericExpression xmi:id="_d0prCerHEeyNi43YQ8vFwA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_bgMVJerHEeyNi43YQ8vFwA" count="397" computed="true">
+      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_bgMVJerHEeyNi43YQ8vFwA" count="396" computed="true">
         <parameters xmi:id="_bgMVJurHEeyNi43YQ8vFwA">
           <indicatorValidDomain xmi:id="_bgMVJ-rHEeyNi43YQ8vFwA" name="Indicator threshold">
             <ranges xmi:id="_bgMVKOrHEeyNi43YQ8vFwA" name="Value Threshold">
@@ -109,7 +109,7 @@
           <sqlGenericExpression xmi:id="_d0wYt-rHEeyNi43YQ8vFwA" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> = '' or RTRIM(LTRIM(&lt;%=__COLUMN_NAMES__%>)) = '') &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_7-7b0OrIEeyNi43YQ8vFwA" count="397" computed="true">
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_7-7b0OrIEeyNi43YQ8vFwA" count="396" computed="true">
         <parameters xmi:id="_7-7b0erIEeyNi43YQ8vFwA"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_BRTtsOrEEeyNi43YQ8vFwA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
@@ -120,7 +120,7 @@
           <sqlGenericExpression xmi:id="_8Jg7M-rIEeyNi43YQ8vFwA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_bgMVLurHEeyNi43YQ8vFwA" name="BranchID_Format" count="397" computed="true" notMatchingValueCount="397">
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_bgMVLurHEeyNi43YQ8vFwA" name="BranchID_Format" count="396" computed="true" matchingValueCount="394" notMatchingValueCount="2">
         <parameters xmi:id="_bgMVL-rHEeyNi43YQ8vFwA">
           <indicatorValidDomain xmi:id="_bgMVMOrHEeyNi43YQ8vFwA" name="Indicator threshold">
             <ranges xmi:id="_bgMVMerHEeyNi43YQ8vFwA" name="Value Threshold">
@@ -138,7 +138,7 @@
         </parameters>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_BRTtsOrEEeyNi43YQ8vFwA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
-        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_d1xFVurHEeyNi43YQ8vFwA" body="SELECT COUNT(CASE WHEN `branch_id` REGEXP '^B\d{4}$' THEN 1 END), COUNT(*) FROM `default`.`branchcode` " language="Hive"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_d1xFVurHEeyNi43YQ8vFwA" body="SELECT COUNT(CASE WHEN `branch_id` REGEXP '^B[0-9]{4}$' THEN 1 END), COUNT(*) FROM `default`.`branchcode` " language="Hive"/>
       </indicators>
       <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_bgMVPOrHEeyNi43YQ8vFwA" count="397" computed="true" blankCount="1">
         <parameters xmi:id="_bgMVPerHEeyNi43YQ8vFwA"/>
