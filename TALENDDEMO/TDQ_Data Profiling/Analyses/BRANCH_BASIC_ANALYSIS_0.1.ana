@@ -20,7 +20,7 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_cWHC6OrnEey8kIF0exIC1g"/>
     </context>
     <results xmi:id="_QAt2h-rGEeyNi43YQ8vFwA">
-      <resultMetadata xmi:id="_QAt2iOrGEeyNi43YQ8vFwA" executionDate="2022-06-13T14:40:08.053+0800" executionDuration="26847" message="" executionNumber="9" lastRunOk="true" lastExecutionNumberOk="9" outThreshold="true"/>
+      <resultMetadata xmi:id="_QAt2iOrGEeyNi43YQ8vFwA" executionDate="2022-06-13T14:43:40.947+0800" executionDuration="4123" message="" executionNumber="10" lastRunOk="true" lastExecutionNumberOk="10"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_2cShkOrnEey8kIF0exIC1g" count="396" computed="true">
         <parameters xmi:id="_2cShkernEey8kIF0exIC1g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_cWHC4OrnEey8kIF0exIC1g"/>
