@@ -165,6 +165,17 @@
           <sqlGenericExpression xmi:id="_8Jlzs-rIEeyNi43YQ8vFwA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_bgMVOOrHEeyNi43YQ8vFwA" count="397" computed="true">
+        <parameters xmi:id="_bgMVOerHEeyNi43YQ8vFwA"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_BRTttOrEEeyNi43YQ8vFwA"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_d1xFUurHEeyNi43YQ8vFwA" body="SELECT COUNT(*) FROM `default`.`branchcode` " language="Hive"/>
+        <builtInIndicatorDefinition xmi:id="_d03tcOrHEeyNi43YQ8vFwA" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_d03tcerHEeyNi43YQ8vFwA" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_d03tcurHEeyNi43YQ8vFwA" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_d03tc-rHEeyNi43YQ8vFwA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
       <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_bgMVQurHEeyNi43YQ8vFwA" count="397" computed="true">
         <parameters xmi:id="_bgMVQ-rHEeyNi43YQ8vFwA"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_BRTtuOrEEeyNi43YQ8vFwA"/>
@@ -188,6 +199,17 @@
           <taggedValue xmi:id="_8JuWkerIEeyNi43YQ8vFwA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
           <taggedValue xmi:id="_8JuWkurIEeyNi43YQ8vFwA" tag="Description" value="counts the number of null rows"/>
           <sqlGenericExpression xmi:id="_8JuWk-rIEeyNi43YQ8vFwA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_bgMVPurHEeyNi43YQ8vFwA" count="397" computed="true">
+        <parameters xmi:id="_bgMVP-rHEeyNi43YQ8vFwA"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_BRTtuOrEEeyNi43YQ8vFwA"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_d1xFUerHEeyNi43YQ8vFwA" body="SELECT COUNT(*) FROM `default`.`branchcode` " language="Hive"/>
+        <builtInIndicatorDefinition xmi:id="_d1Pg4OrHEeyNi43YQ8vFwA" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_d1Pg4erHEeyNi43YQ8vFwA" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_d1Pg4urHEeyNi43YQ8vFwA" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_d1Pg4-rHEeyNi43YQ8vFwA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
     </results>
