@@ -6,7 +6,7 @@
   <taggedValue xmi:id="_stwwI-rOEeyNi43YQ8vFwA" tag="Purpose" value=""/>
   <taggedValue xmi:id="_stwwJOrOEeyNi43YQ8vFwA" tag="Description" value=""/>
   <taggedValue xmi:id="_stwwJerOEeyNi43YQ8vFwA" tag="Version" value="0.1"/>
-  <taggedValue xmi:id="_stwwJurOEeyNi43YQ8vFwA" tag="OutputFolder" value="C:\Users\danie\Desktop"/>
+  <taggedValue xmi:id="_stwwJurOEeyNi43YQ8vFwA" tag="OutputFolder" value="C:\MAMPU_POC_FILES\dq_reports"/>
   <taggedValue xmi:id="_stwwJ-rOEeyNi43YQ8vFwA" tag="REP_DBINFO_DBTYPE" value="Snowflake"/>
   <taggedValue xmi:id="_stwwKOrOEeyNi43YQ8vFwA" tag="REP_DBINFO_DBVERSION" value=""/>
   <taggedValue xmi:id="_stwwKerOEeyNi43YQ8vFwA" tag="REP_DBINFO_HOST" value="quandatics_partner.ap-southeast-2.snowflakecomputing.com"/>
@@ -15,7 +15,7 @@
   <taggedValue xmi:id="_stwwLOrOEeyNi43YQ8vFwA" tag="REP_DBINFO_DBNAME" value="TALEND_DQ"/>
   <taggedValue xmi:id="_stwwLerOEeyNi43YQ8vFwA" tag="REP_DBINFO_SCHEMA" value="MAMPU_POC_DQ"/>
   <taggedValue xmi:id="_stwwLurOEeyNi43YQ8vFwA" tag="REP_DBINFO_USER" value="MK_LIM"/>
-  <taggedValue xmi:id="_stwwL-rOEeyNi43YQ8vFwA" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:5dwpekJ5tBnWKM0WhYUZU5PV3jU7jQR4QgbmalXm0cEye/gk/eU8q1N3"/>
+  <taggedValue xmi:id="_stwwL-rOEeyNi43YQ8vFwA" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:QclW5Eb2rcRzT5PgF0lvSy6N1TFM/IZxu2Ud1kQLbJFiy+w9qP6uh/tr"/>
   <taggedValue xmi:id="_stwwMOrOEeyNi43YQ8vFwA" tag="REP_DBINFO_PARAMETER" value="CLIENT_RESULT_COLUMN_CASE_INSENSITIVE=true"/>
   <taggedValue xmi:id="_stwwMerOEeyNi43YQ8vFwA" tag="REP_DBINFO_URL" value="jdbc:snowflake://quandatics_partner.ap-southeast-2.snowflakecomputing.com:443/?db=TALEND_DQ&amp;schema=MAMPU_POC_DQ&amp;warehouse=LOAD_WH&amp;CLIENT_RESULT_COLUMN_CASE_INSENSITIVE=true"/>
   <taggedValue xmi:id="_stwwMurOEeyNi43YQ8vFwA" tag="REP_DBINFO_DRIVER" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
@@ -27,8 +27,8 @@
   <taggedValue xmi:id="_8KzF4urOEeyNi43YQ8vFwA" tag="REP_GENERATE_FILE" value="true"/>
   <taggedValue xmi:id="_8K3XVOrOEeyNi43YQ8vFwA" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
   <presentationParams xmi:id="_8K2JMOrOEeyNi43YQ8vFwA" type="BOTTOM_MIDDLE_PRESENTATIONKEY">
-    <formula xmi:id="_8K2JMerOEeyNi43YQ8vFwA">
-      <expression xsi:type="relational:TdExpression" xmi:id="_8K2wQOrOEeyNi43YQ8vFwA" body=""/>
+    <formula xmi:id="_KixUMOrTEeyNi43YQ8vFwA">
+      <expression xsi:type="relational:TdExpression" xmi:id="_KixUMerTEeyNi43YQ8vFwA" body="Report Author"/>
     </formula>
   </presentationParams>
   <presentationParams xmi:id="_8K2wQerOEeyNi43YQ8vFwA" type="TOP_LEFT_PRESENTATIONKEY">
@@ -42,8 +42,8 @@
     </formula>
   </presentationParams>
   <presentationParams xmi:id="_0_mOAOrPEeyNi43YQ8vFwA" type="TOP_MIDDLE_PRESENTATIONKEY">
-    <formula xmi:id="_1vkc8OrQEeyNi43YQ8vFwA">
-      <expression xsi:type="relational:TdExpression" xmi:id="_1vkc8erQEeyNi43YQ8vFwA" body="Creation Date"/>
+    <formula xmi:id="_KixUMurTEeyNi43YQ8vFwA">
+      <expression xsi:type="relational:TdExpression" xmi:id="_KixUM-rTEeyNi43YQ8vFwA" body="Report Author"/>
     </formula>
   </presentationParams>
   <presentationParams xmi:id="_0_mOA-rPEeyNi43YQ8vFwA" type="BOTTOM_RIGHT_PRESENTATIONKEY">
