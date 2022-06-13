@@ -2,6 +2,26 @@
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" internalId="_S9ZHYOrkEey8kIF0exIC1g" name="output_folder" prompt="output_folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/MAMPU_POC_FILES/dq_reports&quot;"/>
     <contextParameter comment="" internalId="_S9ZHYerkEey8kIF0exIC1g" name="max_files_to_keep" prompt="max_files_to_keep?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="10"/>
+    <contextParameter comment="" internalId="_on-uEOrwEey8kIF0exIC1g" name="sender" prompt="sender?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_on-uEerwEey8kIF0exIC1g" name="recipients" prompt="recipients?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_on-uEurwEey8kIF0exIC1g" name="bcc" prompt="bcc?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" internalId="_on-uE-rwEey8kIF0exIC1g" name="cc" prompt="cc?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" internalId="_on-uFOrwEey8kIF0exIC1g" name="SMTP_host" prompt="SMTP_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_on-uFerwEey8kIF0exIC1g" name="SMTP_port" prompt="SMTP_port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="25"/>
+    <contextParameter comment="" internalId="_on-uFurwEey8kIF0exIC1g" name="SMTP_username" prompt="SMTP_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_on-uF-rwEey8kIF0exIC1g" name="SMTP_password" prompt="SMTP_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="dev">
+    <contextParameter comment="" internalId="_S9ZHYOrkEey8kIF0exIC1g" name="output_folder" prompt="output_folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/MAMPU_POC_FILES/dq_reports&quot;"/>
+    <contextParameter comment="" internalId="_S9ZHYerkEey8kIF0exIC1g" name="max_files_to_keep" prompt="max_files_to_keep?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="10"/>
+    <contextParameter comment="" internalId="_on-uGOrwEey8kIF0exIC1g" name="sender" prompt="sender?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;daniel.yap@quandatics.com&quot;"/>
+    <contextParameter comment="" internalId="_on-uGerwEey8kIF0exIC1g" name="recipients" prompt="recipients?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;daniel.yap@quandatics.com ; daniel.yap@daltos-ai.com&quot;"/>
+    <contextParameter comment="" internalId="_on-uGurwEey8kIF0exIC1g" name="bcc" prompt="bcc?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;daniel.yap@quandatics.com&quot;"/>
+    <contextParameter comment="" internalId="_on-uG-rwEey8kIF0exIC1g" name="cc" prompt="cc?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;daniel.yap@daltos-ai.com&quot;"/>
+    <contextParameter comment="" internalId="_on-uHOrwEey8kIF0exIC1g" name="SMTP_host" prompt="SMTP_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mail.quandatics.com"/>
+    <contextParameter comment="" internalId="_on_VIOrwEey8kIF0exIC1g" name="SMTP_port" prompt="SMTP_port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="465"/>
+    <contextParameter comment="" internalId="_on_VIerwEey8kIF0exIC1g" name="SMTP_username" prompt="SMTP_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="daniel.yap@quandatics.com"/>
+    <contextParameter comment="" internalId="_on_VIurwEey8kIF0exIC1g" name="SMTP_password" prompt="SMTP_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:qstoX4A1H4VoRvmA3j/agqDggu3y8VzEi5QEG+jkqsx9ht1heiRVYEVe+Q=="/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -46,7 +66,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:WiZZlJVDOIvMPiUpGd0n+tL5z3JgmaWMmj5BlH70"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:wvfCbluA/hMiBEtjhovMXNEHWvMznz0w0HN5iZqH"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -81,7 +101,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:mPuP65xVDUz+UP9OI9zdlXIXiiFPPkqhVz2e0knQ"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:qCB7UIUSB1l6ESyK23x2dnKUMDNtq6kKgEexOgrc"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -569,25 +589,28 @@
   </node>
   <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSendMail_1"/>
-    <elementParameter field="TEXT" name="TO" value="&quot;receiver@example.com&quot;"/>
-    <elementParameter field="TEXT" name="FROM" value="&quot;send@example.com&quot;"/>
+    <elementParameter field="TEXT" name="TO" value="context.recipients"/>
+    <elementParameter field="TEXT" name="FROM" value="context.sender"/>
     <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
     <elementParameter field="TEXT" name="PERSONAL_NAME" show="false" value="&quot;sender&quot;"/>
-    <elementParameter field="TEXT" name="CC" value="&quot;carbon@example.com&quot;"/>
-    <elementParameter field="TEXT" name="BCC" value="&quot;blindcarbon@example.com&quot;"/>
-    <elementParameter field="TEXT" name="SUBJECT" value="&quot;Talend Open Studio notification&quot;"/>
-    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;Hello&quot;"/>
+    <elementParameter field="TEXT" name="CC" value="context.cc"/>
+    <elementParameter field="TEXT" name="BCC" value="context.bcc"/>
+    <elementParameter field="TEXT" name="SUBJECT" value="&quot;Branch Data Quality Report &quot;+TalendDate.getCurrentDate()"/>
+    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;This is an automatically generated email.&#13;&#10;&#13;&#10;The report &quot;+((String)globalMap.get(&quot;tFileList_1_CURRENT_FILE&quot;))+&quot; is ready and has been attached to this email.&quot;"/>
     <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="true"/>
-    <elementParameter field="TABLE" name="ATTACHMENTS"/>
+    <elementParameter field="TABLE" name="ATTACHMENTS">
+      <elementValue elementRef="FILE" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
+      <elementValue elementRef="CONTENT_TRANSFER_ENCODING" value="DEFAULT"/>
+    </elementParameter>
     <elementParameter field="TABLE" name="HEADERS"/>
-    <elementParameter field="TEXT" name="SMTP_HOST" value="&quot;smtp.provider.com&quot;"/>
-    <elementParameter field="TEXT" name="SMTP_PORT" value="25"/>
-    <elementParameter field="CHECK" name="SSL" value="false"/>
+    <elementParameter field="TEXT" name="SMTP_HOST" value="context.SMTP_host"/>
+    <elementParameter field="TEXT" name="SMTP_PORT" value="context.SMTP_port"/>
+    <elementParameter field="CHECK" name="SSL" value="true"/>
     <elementParameter field="CHECK" name="STARTTLS" value="false"/>
     <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
-    <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;username&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:WHfxi4uNnxWkA/4kCtt4Dh0a9ctXBlmPeKm1RN8wtRp5PnqO1ew="/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="context.SMTP_username"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:V64uHoSSW/CG0XPOfhhKzGkPsoSxL+1MYUo8Qltvmr5qOFspmcJnHp5UcJTNHUpV2Q=="/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
@@ -646,13 +669,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c851db0c-f584-401f-96a4-538f6f480f3f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ESd88HTi67znDOh2kFTFYZBGlKhG4FBp/sSFrw3AmLpBEKloIEiZ8PabtJxztn8yLb3tfCN0pBiz&#13;
-2Ra/gdyVew==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a4fab940-88d7-4b67-a772-c6adcc120ab5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>5vcZktgaSO9zwFgux8VuymogeTOdbjpmm7RpC/XiIl8A147qMjUb/I7Yo+xxcrhtD9XRpQxUijkH&#13;
-37f0V7s3ag==</DigestValue></Reference></SignedInfo><SignatureValue>fNNjBQVuitPlQZYgdwsHOGsoU9WvpUzwIX/41r0cd231Q79MQkwfKmxYOyZqoJy9ivOerSAXqOXc&#13;
-FYPO+ZSLx258OMT5bG0cWLdTmZCxoUdWbFASxL1WlUpq2a1spR+cgjLlzhpcF0Pt9I81kwb2MoKU&#13;
-R5NZl/VvB4sKxnkeb22/8+uWBf1Pm/ujGiXR8xTmLlshiqK48fiEtzEfv5ktHnR5J+k5NAUvSsoU&#13;
-QQHsh1A8VEjK6To41mmW7Jwp0hr1ZZxwU/Yxjg9pgg2jt7isl8cQKRhirZr/J2o2LHblU+w7xxqw&#13;
-l6FKCoYHQrk44NRFfyGzOeR40va3LmpTUn1bTw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6aa9e39b-bca4-4bf0-afda-a05af5bcebd9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>VVeskgXwoVMTv2jzAB4XiLPHLRbHFBz7EZq+Z2O0r3QGcYDGsqfFnn1Dtq3CAhZvfQIrlfkvrdO+&#13;
+0AtU3p1U9A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e9f1bd1a-3219-4865-ad15-9f3bdfdb1371"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>imFAPuOphZXq2rutHQDxOssw3vz2Ob+Qazu1EBAyspfxzo8YVNQFw8h1d9KRoZDrnK1hJnf2oY99&#13;
+53twUXn0ow==</DigestValue></Reference></SignedInfo><SignatureValue>bTfBT7YyK8jiWLC+S9Y6AhFCS9KlaZ4BIlQmdoJaKBqiKLuBYEhYT2sYhdm4y+q231RpNOgNjoej&#13;
+SshiMxA/hq7kXZbmTm0NbrdlCnJdIoKhKj5oqKMTSM+E8WISaKwK++mAmYqKUqu+tQ1HWqyWMGm+&#13;
+SSteLNfNxy9UgEZ+6XluDbxYyRaFMgyRZ/EphSJOzyNWwL2nWp2cdDoH5BDRHzT6fCyUJlysKQVN&#13;
+xAjS1UdCo8QaFYiXuXE6CcvUU2W+vegUrjEgzGrtPkkbN9oJEMJZOqVk3uCof1Jp05Nb5/1TWF1q&#13;
+20fsXSHEuCBFKPjNxkh9dh4DQOx2lmiRoBZAXQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -674,4 +697,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a4fab940-88d7-4b67-a772-c6adcc120ab5" Target="#_c851db0c-f584-401f-96a4-538f6f480f3f"><Timestamp>2022-06-13 07:31:50</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e9f1bd1a-3219-4865-ad15-9f3bdfdb1371" Target="#_6aa9e39b-bca4-4bf0-afda-a05af5bcebd9"><Timestamp>2022-06-13 07:42:58</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
