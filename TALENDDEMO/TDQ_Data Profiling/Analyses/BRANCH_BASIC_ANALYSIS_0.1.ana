@@ -19,7 +19,7 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/CDP_HIVE_0.1.item#_BRTtuOrEEeyNi43YQ8vFwA"/>
     </context>
     <results xmi:id="_QAt2h-rGEeyNi43YQ8vFwA">
-      <resultMetadata xmi:id="_QAt2iOrGEeyNi43YQ8vFwA" executionDate="2022-06-13T11:55:28.802+0800" executionDuration="1811" message="" executionNumber="6" lastRunOk="true" lastExecutionNumberOk="6"/>
+      <resultMetadata xmi:id="_QAt2iOrGEeyNi43YQ8vFwA" executionDate="2022-06-13T11:56:12.540+0800" executionDuration="1816" message="" executionNumber="7" lastRunOk="true" lastExecutionNumberOk="7"/>
       <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_bgLuBOrHEeyNi43YQ8vFwA" count="396" computed="true" distinctValueCount="396">
         <parameters xmi:id="_bgMVEOrHEeyNi43YQ8vFwA">
           <indicatorValidDomain xmi:id="_bgMVEerHEeyNi43YQ8vFwA" name="Indicator threshold">
