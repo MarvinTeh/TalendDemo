@@ -1,0 +1,14 @@
+{
+  "itemId" : "_bc9LIOrYEeyNi43YQ8vFwA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_6IbZ8OrYEeyNi43YQ8vFwA",
+    "parameterList" : [ {
+      "id" : "_889ykOriEey8kIF0exIC1g",
+      "name" : "output_folder"
+    }, {
+      "id" : "_889ykeriEey8kIF0exIC1g",
+      "name" : "max_files_to_keep"
+    } ]
+  } ]
+}
