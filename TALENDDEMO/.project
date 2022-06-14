@@ -9,4 +9,21 @@
 	<natures>
 		<nature>org.talend.core.talendnature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>.branchcode Data Quality Report-20220613-1155-00055.pdf</name>
+			<type>1</type>
+			<location>C:/Users/danie/Desktop/branchcode Data Quality Report-20220613-1155-00055.pdf</location>
+		</link>
+		<link>
+			<name>.branchcode Data Quality Report-20220613-1156-00026.pdf</name>
+			<type>1</type>
+			<location>C:/Users/danie/Desktop/branchcode Data Quality Report-20220613-1156-00026.pdf</location>
+		</link>
+		<link>
+			<name>.branchcode Data Quality Report-20220613-1158-00059.pdf</name>
+			<type>1</type>
+			<location>C:/Users/danie/Desktop/branchcode Data Quality Report-20220613-1158-00059.pdf</location>
+		</link>
+	</linkedResources>
 </projectDescription>

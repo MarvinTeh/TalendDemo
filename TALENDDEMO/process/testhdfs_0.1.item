@@ -43,7 +43,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:bWYxgFXvyt89udDZR7KVro5Hdilzp/c6ZVNQ8PaO"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:6ISH5ibs1eVT/p8BlI8QFwD/8Lpe6ydXcSSZf9JM"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -78,7 +78,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:7yqW9Idox9Q0aYJ7Y/vtbptljU9B4e4bfvsMF26e"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:nhWSjVD79ZSz7/ByoXXW7AMn8AYDHGdo++UGVIt7"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -172,7 +172,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="DESTINATION" show="false" value=""/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="Cloudera_CDP7_1_7_1000_141_dynamic_20220608172054905_0800"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="Cloudera_CDP7_1_1_0_565"/>
     <elementParameter field="HADOOP_DISTRIBUTION" name="HDFS" value=""/>
     <elementParameter field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="SCHEME" value="HDFS"/>
@@ -180,18 +180,18 @@
     <elementParameter field="TEXT" name="FS_DEFAULT_NAME" value="&quot;hdfs://master-cdp.quandatics.tech:8020&quot;"/>
     <elementParameter field="TEXT" name="ADLS_FS_DEFAULT_NAME" show="false" value="&quot;adl://account.azuredatalakestore.net&quot;"/>
     <elementParameter field="TEXT" name="ADLS_CLIENT_ID" show="false" value="&quot;XXXX&quot;"/>
-    <elementParameter field="PASSWORD" name="ADLS_AUTH_TOKEN_ENDPOINT" show="false" value="enc:system.encryption.key.v1:GV8xHIwsnLUHshbywVhSfOD46iVO8G+ehhIppKXR/naxmni+rsd6v6DvkzeO8Lm7YBXxsyh3uu3etbYJXAqQagMA2ogPA+mpTGhn5Kd4Hyw="/>
-    <elementParameter field="PASSWORD" name="ADLS_CLIENT_KEY" show="false" value="enc:system.encryption.key.v1:dK+VIQzpEli+mBXvxOl2bcilv/JRWJr1yePfrA5M6AHUfQ=="/>
+    <elementParameter field="PASSWORD" name="ADLS_AUTH_TOKEN_ENDPOINT" show="false" value="enc:system.encryption.key.v1:O7JSFA8JvCDewglxxV/otpKEm2G4Nlxh9M4tM25sHSUz2LMKexYg4yIgKDaAx8MJw3rV7CW29GHtAdeBzfZlotclFi9aPYI2cE1FH9RE4Xc="/>
+    <elementParameter field="PASSWORD" name="ADLS_CLIENT_KEY" show="false" value="enc:system.encryption.key.v1:rwyy3Y0XT5JMQOe2kreA/f6G1qllsdqXT9hAyHbdsIrApg=="/>
     <elementParameter field="CHECK" name="USE_DATANODE_HOSTNAME" value="true"/>
     <elementParameter field="CHECK" name="USE_KRB" value="true"/>
     <elementParameter field="TEXT" name="NAMENODE_PRINCIPAL" value="&quot;hdfs/_HOST@QUANDATICS.TECH&quot;"/>
     <elementParameter field="CHECK" name="USE_KEYTAB" value="true"/>
     <elementParameter field="TEXT" name="PRINCIPAL" value="&quot;gh.chow@QUANDATICS.TECH&quot;"/>
-    <elementParameter field="FILE" name="KEYTAB_PATH" value="&quot;C:/gh.chow.keytab&quot;"/>
+    <elementParameter field="FILE" name="KEYTAB_PATH" value="&quot;C:/MAMPU_POC_FILES/gh.chow.keytab&quot;"/>
     <elementParameter field="CHECK" name="USE_MAPRTICKET" show="false" value="false"/>
     <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;anonymous&quot;"/>
     <elementParameter field="TEXT" name="GROUP" show="false" value="&quot;supergroup&quot;"/>
-    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:FxR5MjiclwmHCB7DoRzWAS7+O9r/Aifv1KcJJWI4"/>
+    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:o88EAKFipEBgmQiZLHY+M8yGuX9ESw/5jAk/Rzp4"/>
     <elementParameter field="TEXT" name="MAPRTICKET_CLUSTER" show="false" value="&quot;demo.mapr.com&quot;"/>
     <elementParameter field="TEXT" name="MAPRTICKET_DURATION" show="false" value=""/>
     <elementParameter field="BOTH_HADOOP" name="FILENAME" value="&quot;/user/gh.chow/note.txt&quot;"/>
@@ -227,7 +227,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_dm0BcObkEeylB-iAUCfr7g"/>
     <elementParameter field="HADOOP_LIBRARIES" name="HIVE" show="false" value=""/>
-    <elementParameter field="CLOSED_LIST" name="HIVE_VERSION" value="Cloudera_CDP7_1_7_1000_141_dynamic_20220608172054905_0800"/>
+    <elementParameter field="CLOSED_LIST" name="HIVE_VERSION" value="Cloudera_CDP7_1_1_0_565"/>
     <elementParameter field="HADOOP_DISTRIBUTION" name="HIVE" value=""/>
     <elementParameter field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" show="false" value=""/>
     <elementParameter field="CHECK" name="USE_YARN" show="false" value="true"/>
@@ -238,8 +238,8 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="HIVE"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;10000&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;default&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:97XafYVdG2IBUH9HrxAziPKDsVhjAmh0RF9ZAQRw"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;admin&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:js7VINrBABJDbbHp6ywgGR26/aFyTpmSmVEZJ5Mx5L0eMxM="/>
     <elementParameter field="TEXT" name="HIVE_ADDITIONAL_JDBC" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="CONFIGURATIONS_FROM_CLASSPATH" value="false"/>
     <elementParameter field="CHECK" name="USE_KRB" value="true"/>
@@ -252,18 +252,18 @@
     <elementParameter field="TEXT" name="METASTORE_JDBC_URL" show="false" value="&quot;thrift://master-cdp.quandatics.tech:9083&quot;"/>
     <elementParameter field="TEXT" name="METASTORE_CLASSNAME" show="false" value="&quot;com.mysql.jdbc.Driver&quot;"/>
     <elementParameter field="TEXT" name="METASTORE_USERNAME" show="false" value="&quot;hive&quot;"/>
-    <elementParameter field="PASSWORD" name="METASTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:hagVXUeM+oRPt8FJlu5ZPnntZNordD6iN8IQ1WXGO8XtHw=="/>
+    <elementParameter field="PASSWORD" name="METASTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:o4SYT17peFuA8VV1nJCchAhUDUXYd9+QjVbrjemjW4rBcg=="/>
     <elementParameter field="CHECK" name="USE_KEYTAB" value="true"/>
     <elementParameter field="TEXT" name="PRINCIPAL" value="&quot;gh.chow@QUANDATICS.TECH&quot;"/>
-    <elementParameter field="FILE" name="KEYTAB_PATH" value="&quot;C:/gh.chow.keytab&quot;"/>
+    <elementParameter field="FILE" name="KEYTAB_PATH" value="&quot;C:/MAMPU_POC_FILES/gh.chow.keytab&quot;"/>
     <elementParameter field="CHECK" name="USE_MAPRTICKET" show="false" value="false"/>
     <elementParameter field="TEXT" name="MAPRTICKET_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:wAk29ldB69gWx65wbj3GN7u1bW3gEnmXqDbkxO/b"/>
+    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:zwzWxGqy7JJGk1gOY8RC/pEXJOop44CBrpjpR4QX"/>
     <elementParameter field="TEXT" name="MAPRTICKET_CLUSTER" show="false" value="&quot;demo.mapr.com&quot;"/>
     <elementParameter field="TEXT" name="MAPRTICKET_DURATION" show="false" value="86400L"/>
     <elementParameter field="CHECK" name="USE_SSL" value="false"/>
     <elementParameter field="FILE" name="SSL_TRUST_STORE" show="false" value="&quot;/home/usr1/ssl/trust_store.jks&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:7QTYwmP6+YMgFOX6IZqPw3Lb2LmNgq6rq6vp2DUGtleLkwO7V6I="/>
+    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:OLdr+aJzH5pFeU7O0xix6NCZqfm1GTtsurWRYOvItPl0BTNH9HM="/>
     <elementParameter field="CHECK" name="SET_MAPRED_JT" show="false" value="false"/>
     <elementParameter field="TEXT" name="MAPRED_JT" show="false" value="&quot;master-cdp.quandatics.tech:8032&quot;"/>
     <elementParameter field="CHECK" name="SET_RESOURCE_MANAGER" show="false" value="false"/>
@@ -282,11 +282,11 @@
     <elementParameter field="TEXT" name="WEBHCAT_USERNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="STATUSDIR" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="HDINSIGHT_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="HDINSIGHT_PASSWORD" show="false" value="enc:system.encryption.key.v1:Z1vq7db27NUbVsheyK2zC79XkhTYIeq5glModuK4"/>
+    <elementParameter field="PASSWORD" name="HDINSIGHT_PASSWORD" show="false" value="enc:system.encryption.key.v1:NuuDvZJ5T4dlWszp+qxJ01fY7dJxsShK76rL2l2K"/>
     <elementParameter field="TEXT" name="WASB_HOST" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="WASB_CONTAINER" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="WASB_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="WASB_PASSWORD" show="false" value="enc:system.encryption.key.v1:SBEYWbNOLrWZk9KZGF7EN+iYqd2YBiU28Q0UmRR/"/>
+    <elementParameter field="PASSWORD" name="WASB_PASSWORD" show="false" value="enc:system.encryption.key.v1:7y8SRdONWRGNNUc6O5T61N67COiyJm+oHxnrQ1UT"/>
     <elementParameter field="TEXT" name="REMOTE_FOLDER" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="GOOGLE_PROJECT_ID" show="false" value="&quot;my-google-project&quot;"/>
     <elementParameter field="TEXT" name="GOOGLE_CLUSTER_ID" show="false" value="&quot;my-cluster-id&quot;"/>
@@ -349,7 +349,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;default&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="HIVE"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:6VGo6R2ljHwMvIcPLmNBwgo7tLUyroxJn3x6O7uN"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:jMJ54T2hqIN/cnLxJo6Z+rRSr633Rblvt9jw4vuh"/>
     <elementParameter field="TEXT" name="HIVE_ADDITIONAL_JDBC" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_KRB" show="false" value="true"/>
     <elementParameter field="TEXT" name="HIVE_PRINCIPAL" show="false" value="&quot;hive/_HOST@QUANDATICS.TECH&quot;"/>
@@ -361,18 +361,18 @@
     <elementParameter field="TEXT" name="METASTORE_JDBC_URL" show="false" value="&quot;thrift://master-cdp.quandatics.tech:9083&quot;"/>
     <elementParameter field="TEXT" name="METASTORE_CLASSNAME" show="false" value="&quot;com.mysql.jdbc.Driver&quot;"/>
     <elementParameter field="TEXT" name="METASTORE_USERNAME" show="false" value="&quot;hive&quot;"/>
-    <elementParameter field="PASSWORD" name="METASTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:Q7XwkC5TRlaU8plrB2rKnaVDdjus+KqAaXi9UYXTzH57/g=="/>
+    <elementParameter field="PASSWORD" name="METASTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:B97qKv7fSqadMhBir4dwQ2nnSp0df9IOCM6443QNXySBYA=="/>
     <elementParameter field="CHECK" name="USE_KEYTAB" show="false" value="true"/>
     <elementParameter field="TEXT" name="PRINCIPAL" show="false" value="&quot;gh.chow@QUANDATICS.TECH&quot;"/>
     <elementParameter field="FILE" name="KEYTAB_PATH" show="false" value="&quot;C:/Users/Quandatics/Desktop/gh.chow.keytab&quot;"/>
     <elementParameter field="CHECK" name="USE_MAPRTICKET" show="false" value="false"/>
     <elementParameter field="TEXT" name="MAPRTICKET_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:B7YOeAkMSFnpDZ6LLeLVP9bo+o5gkdqHcjhyiD8U"/>
+    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:iALrU6aN3afgJo16E08e0s8sTy/28HeG5jySnbPz"/>
     <elementParameter field="TEXT" name="MAPRTICKET_CLUSTER" show="false" value="&quot;demo.mapr.com&quot;"/>
     <elementParameter field="TEXT" name="MAPRTICKET_DURATION" show="false" value="86400L"/>
     <elementParameter field="CHECK" name="USE_SSL" show="false" value="false"/>
     <elementParameter field="FILE" name="SSL_TRUST_STORE" show="false" value="&quot;/home/usr1/ssl/trust_store.jks&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:1GBPQPlQLfvfe+zxRlvGKoxdiS7aiTP8IdNYBB6zEE8vlnS6XAc="/>
+    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:WiEQpRxKBRxK+CT8DD4N+2aQZWqUX50fmKg0+ETvfJMdTjNsjoo="/>
     <elementParameter field="CHECK" name="SET_MAPRED_JT" show="false" value="false"/>
     <elementParameter field="TEXT" name="MAPRED_JT" show="false" value="&quot;master-cdp.quandatics.tech:8032&quot;"/>
     <elementParameter field="CHECK" name="SET_RESOURCE_MANAGER" show="false" value="false"/>
@@ -391,11 +391,11 @@
     <elementParameter field="TEXT" name="WEBHCAT_USERNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="STATUSDIR" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="HDINSIGHT_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="HDINSIGHT_PASSWORD" show="false" value="enc:system.encryption.key.v1:x3CMXLvdfP+WYziJ0bK+SlzMONdCQ6CIR9XeoRdS"/>
+    <elementParameter field="PASSWORD" name="HDINSIGHT_PASSWORD" show="false" value="enc:system.encryption.key.v1:ZNWYGwQLDc2C2t4JXlQX9/bxza4ZY9ycnuEZx9LJ"/>
     <elementParameter field="TEXT" name="WASB_HOST" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="WASB_CONTAINER" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="WASB_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="WASB_PASSWORD" show="false" value="enc:system.encryption.key.v1:lWjDhPvEB27r0RHSm/xHLEMyx7BJg7PbSDGdW3Qn"/>
+    <elementParameter field="PASSWORD" name="WASB_PASSWORD" show="false" value="enc:system.encryption.key.v1:kmvIl1PAabO971g6y5eOZI4EBv50sWw8tEV9IANz"/>
     <elementParameter field="TEXT" name="REMOTE_FOLDER" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="GOOGLE_PROJECT_ID" show="false" value="&quot;my-google-project&quot;"/>
     <elementParameter field="TEXT" name="GOOGLE_CLUSTER_ID" show="false" value="&quot;my-cluster-id&quot;"/>
@@ -416,7 +416,7 @@
     <elementParameter field="TEXT" name="FILE_LOCATION" value="&quot;/user/gh.chow/data&quot;"/>
     <elementParameter field="TEXT" name="S3_BUCKET" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="S3_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="S3_PASSWORD" show="false" value="enc:system.encryption.key.v1:EUFetwlyCULl86Y8MoHjjz6vjuFXb8Wwg9q6eN0d"/>
+    <elementParameter field="PASSWORD" name="S3_PASSWORD" show="false" value="enc:system.encryption.key.v1:Xmwi04Ov7ems+ACFCjC+azf+5WQPbWmOmqF23FLF"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="hive_id"/>
     <elementParameter field="CHECK" name="SET_ROW_FORMAT" value="true"/>
     <elementParameter field="CHECK" name="SET_FIELD_TERMINATED_BY" value="true"/>
@@ -486,7 +486,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;default&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="HIVE"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:vdu2xL78lUG/Q/PAUis13m04n1AQtW2v9+4vz/wG"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:heimTfnhQ4SKXCXKHrBGjJak/jIuyqj3y65CQdnA"/>
     <elementParameter field="TEXT" name="HIVE_ADDITIONAL_JDBC" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_KRB" show="false" value="true"/>
     <elementParameter field="TEXT" name="HIVE_PRINCIPAL" show="false" value="&quot;hive/_HOST@QUANDATICS.TECH&quot;"/>
@@ -498,18 +498,18 @@
     <elementParameter field="TEXT" name="METASTORE_JDBC_URL" show="false" value="&quot;thrift://master-cdp.quandatics.tech:9083&quot;"/>
     <elementParameter field="TEXT" name="METASTORE_CLASSNAME" show="false" value="&quot;com.mysql.jdbc.Driver&quot;"/>
     <elementParameter field="TEXT" name="METASTORE_USERNAME" show="false" value="&quot;hive&quot;"/>
-    <elementParameter field="PASSWORD" name="METASTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:Val/NkDjWcAW5k4dznH/xugNc1LtWareNhOaVwPNeEToAA=="/>
+    <elementParameter field="PASSWORD" name="METASTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:UkJZBAV7kaSrVoCg1lZ4eqq95XQeTK/imq8A9phBtezh0g=="/>
     <elementParameter field="CHECK" name="USE_KEYTAB" show="false" value="true"/>
     <elementParameter field="TEXT" name="PRINCIPAL" show="false" value="&quot;gh.chow@QUANDATICS.TECH&quot;"/>
     <elementParameter field="FILE" name="KEYTAB_PATH" show="false" value="&quot;C:/Users/Quandatics/Desktop/gh.chow.keytab&quot;"/>
     <elementParameter field="CHECK" name="USE_MAPRTICKET" show="false" value="false"/>
     <elementParameter field="TEXT" name="MAPRTICKET_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:1vdZMKmzRXDLJRIalyaymFBpgGBPBIjxDKGK/kaK"/>
+    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:anYyIMZRxv99FxSdFik9pqQih0vUUnQLTiy5B1S/"/>
     <elementParameter field="TEXT" name="MAPRTICKET_CLUSTER" show="false" value="&quot;demo.mapr.com&quot;"/>
     <elementParameter field="TEXT" name="MAPRTICKET_DURATION" show="false" value="86400L"/>
     <elementParameter field="CHECK" name="USE_SSL" show="false" value="false"/>
     <elementParameter field="FILE" name="SSL_TRUST_STORE" show="false" value="&quot;/home/usr1/ssl/trust_store.jks&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:5ewbB57flkSyFoegsATd9Z6hUs7KfaIR9syCRco2F5ymTX+ebAc="/>
+    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:T05XHPj4rjR6nSiY1gWw8UUmLGcWFHpIjLylvQIb377MT+aVc/0="/>
     <elementParameter field="CHECK" name="SET_MAPRED_JT" show="false" value="false"/>
     <elementParameter field="TEXT" name="MAPRED_JT" show="false" value="&quot;master-cdp.quandatics.tech:8032&quot;"/>
     <elementParameter field="CHECK" name="SET_RESOURCE_MANAGER" show="false" value="false"/>
@@ -528,11 +528,11 @@
     <elementParameter field="TEXT" name="WEBHCAT_USERNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="STATUSDIR" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="HDINSIGHT_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="HDINSIGHT_PASSWORD" show="false" value="enc:system.encryption.key.v1:4FFeF6HYO5BgiJwrOTDYCOUNHJ1h/QCDDWVdZ9jh"/>
+    <elementParameter field="PASSWORD" name="HDINSIGHT_PASSWORD" show="false" value="enc:system.encryption.key.v1:TQor8pdQ/qTsCHXNcY5VigzrBdStFp7GIQ9+2XWH"/>
     <elementParameter field="TEXT" name="WASB_HOST" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="WASB_CONTAINER" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="WASB_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="WASB_PASSWORD" show="false" value="enc:system.encryption.key.v1:00WKb+1qW4WlTHZlcjeDzuPdq2valX6Fr9Q1Wk0l"/>
+    <elementParameter field="PASSWORD" name="WASB_PASSWORD" show="false" value="enc:system.encryption.key.v1:ZIj+mJ92ljOGvM8janzq5pPYgOHuLrPMg0OxXIqP"/>
     <elementParameter field="TEXT" name="REMOTE_FOLDER" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="GOOGLE_PROJECT_ID" show="false" value="&quot;my-google-project&quot;"/>
     <elementParameter field="TEXT" name="GOOGLE_CLUSTER_ID" show="false" value="&quot;my-cluster-id&quot;"/>
@@ -560,8 +560,8 @@
     <elementParameter field="TEXT" name="GROUP" show="false" value="&quot;supergroup&quot;"/>
     <elementParameter field="BOTH_HADOOP" name="TEZ_LIB_PATH" show="false" value="&quot;&quot;"/>
     <elementParameter field="TABLE" name="TEZ_LIB_NAME" show="false"/>
-    <elementParameter field="LABEL" name="NOTE" show="false" value="If you are on Windows, add a '/' in front of the path you type in."/>
-    <elementParameter field="CHECK" name="SET_TEMP_PATH" show="false" value="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="If you are on Windows, add a '/' in front of the path you type in."/>
+    <elementParameter field="CHECK" name="SET_TEMP_PATH" value="false"/>
     <elementParameter field="DIRECTORY" name="TEMP_PATH" show="false" value="&quot;&quot;"/>
     <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES" show="false"/>
     <elementParameter field="TABLE" name="ADVANCED_PROPERTIES" show="false"/>
@@ -611,13 +611,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6b2a21cf-5929-4d51-b3c2-13864f50847c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>06zzh7yw23+F2gllmL+GP4y+AheGwHVGITo2yIgLvroaQHjKtZaW4i0xzKXCQpYae/iIrVHe2nE6&#13;
-lMelsS+rNA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_28af554c-bcee-4a82-93bf-60dca2d0653b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>g9St37hZKHlxYwjvEXYewrB4Mj2smw/0wKHSlogwJl6RDEriTA6DzSe14w3iquhy6sjkwilKJ2b3&#13;
-/fwH8jd5HA==</DigestValue></Reference></SignedInfo><SignatureValue>LxDch+rE2BClL+mwuOq9fz201/cXV+a6G55q3E93UiM/iEMGMFzMKqd0t8wqL49VwETANY0/SZcy&#13;
-mWytggy/qZd4m3Q+RMnEW+uJdwNM+F+eKhK5oLd8ry2C6OdSMXO4qn9/91EbO1R/xOx6ihMGfmYE&#13;
-1uwAkEyaWLbZislw5lkIZgYIUCAnmS1zYpASKXt3t2HwvhMTVJ/iFXLk23H2QEa1dSz7upCkNa0y&#13;
-ry1gV5XwVTKG4KSXsGtvVUtvnO5da2QxLX0VRbeyz1CtK8PriSO4hnFlRHS5IHTU2jtouOVPw0Hv&#13;
-AioaNwFANarsEiCZt0vt/oFvaX6GTeKm+Oeqow==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4d8257c6-a848-428b-af63-41a291d973ca"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>DJdhWUMoBMk0swZd54qzGIX+reGQq/oV22vD3/d4shUJjdEYhQLnwT81zHLpeCp7XuEEga2Smw6k&#13;
+7MYGtQyShg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_853235b9-c784-45c4-ad17-e7b3d0c438c9"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>DLpr2IJiNCb5FIEGIegiHOjyVAZj5zoeSnQWyyebSTESPOB0GbVu3hOoKW52qqTww69YSpZJHi/1&#13;
+ZIz2IakA9w==</DigestValue></Reference></SignedInfo><SignatureValue>Gi8pXbr/z82nPl7wkVXDXuplGcjZNao38MlsPPFbuFYNPHM0YEdo/P9TNhHVa5w8ZsaE/cl5k324&#13;
+e4gShTw1l5h30fpV6st69bH4yIlOzNuEhuUVftD0QOFwgfApe0IxkNUwXSCkj7cOV5fuNB8q+1wj&#13;
+y94+f7iScAk1g/FT/t0Z8S2Ko037yHWhldenL2h3waqiZ9o8EycMb5HE9H+4L8hryRYRZam1ee4l&#13;
+aoCyCnIqLa8pW416f0C9xOJO2d2ANaLLlNLq3jSukYt2hrwOknodDzTXt1vR9r2yFrffNQtcLXDM&#13;
+Jvt8vBX8r5eRNzJxGUNMxaxVIqYiPbqKxl7eYQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -639,4 +639,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_28af554c-bcee-4a82-93bf-60dca2d0653b" Target="#_6b2a21cf-5929-4d51-b3c2-13864f50847c"><Timestamp>2022-06-09 07:02:34</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_853235b9-c784-45c4-ad17-e7b3d0c438c9" Target="#_4d8257c6-a848-428b-af63-41a291d973ca"><Timestamp>2022-06-13 05:07:36</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.reports="http://dataquality.reports" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_stwwIOrOEeyNi43YQ8vFwA" name="branchcode Data Quality Report" creationDate="2022-06-13T11:40:02.610+0800" defaultContext="Default">
+  <clientDependency href="../Analyses/BRANCH_BASIC_ANALYSIS_0.1.ana#_8K5zkOrOEeyNi43YQ8vFwA"/>
+  <taggedValue xmi:id="_stwwIerOEeyNi43YQ8vFwA" tag="Status" value="development"/>
+  <taggedValue xmi:id="_stwwIurOEeyNi43YQ8vFwA" tag="Author" value="daniel.yap@quandatics.com"/>
+  <taggedValue xmi:id="_stwwI-rOEeyNi43YQ8vFwA" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_stwwJOrOEeyNi43YQ8vFwA" tag="Description" value=""/>
+  <taggedValue xmi:id="_stwwJerOEeyNi43YQ8vFwA" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_stwwJurOEeyNi43YQ8vFwA" tag="OutputFolder" value="C:\MAMPU_POC_FILES\dq_reports"/>
+  <taggedValue xmi:id="_stwwJ-rOEeyNi43YQ8vFwA" tag="REP_DBINFO_DBTYPE" value="Snowflake"/>
+  <taggedValue xmi:id="_stwwKOrOEeyNi43YQ8vFwA" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_stwwKerOEeyNi43YQ8vFwA" tag="REP_DBINFO_HOST" value="quandatics_partner.ap-southeast-2.snowflakecomputing.com"/>
+  <taggedValue xmi:id="_stwwKurOEeyNi43YQ8vFwA" tag="REP_DBINFO_PORT" value="443"/>
+  <taggedValue xmi:id="_stwwK-rOEeyNi43YQ8vFwA" tag="REP_DBINFO_WAREHOUSE" value="LOAD_WH"/>
+  <taggedValue xmi:id="_stwwLOrOEeyNi43YQ8vFwA" tag="REP_DBINFO_DBNAME" value="TALEND_DQ"/>
+  <taggedValue xmi:id="_stwwLerOEeyNi43YQ8vFwA" tag="REP_DBINFO_SCHEMA" value="MAMPU_POC_DQ"/>
+  <taggedValue xmi:id="_stwwLurOEeyNi43YQ8vFwA" tag="REP_DBINFO_USER" value="MK_LIM"/>
+  <taggedValue xmi:id="_stwwL-rOEeyNi43YQ8vFwA" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:1drqX2nOhvPBuUsFD+KHt5u2Ke/lNmcUMNkGf4IjfPb47X4t1bCA2y0G"/>
+  <taggedValue xmi:id="_stwwMOrOEeyNi43YQ8vFwA" tag="REP_DBINFO_PARAMETER" value="CLIENT_RESULT_COLUMN_CASE_INSENSITIVE=true"/>
+  <taggedValue xmi:id="_stwwMerOEeyNi43YQ8vFwA" tag="REP_DBINFO_URL" value="jdbc:snowflake://quandatics_partner.ap-southeast-2.snowflakecomputing.com:443/?db=TALEND_DQ&amp;schema=MAMPU_POC_DQ&amp;warehouse=LOAD_WH&amp;CLIENT_RESULT_COLUMN_CASE_INSENSITIVE=true"/>
+  <taggedValue xmi:id="_stwwMurOEeyNi43YQ8vFwA" tag="REP_DBINFO_DRIVER" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
+  <taggedValue xmi:id="_stwwM-rOEeyNi43YQ8vFwA" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.SnowflakeDialect"/>
+  <taggedValue xmi:id="_stwwNOrOEeyNi43YQ8vFwA" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_8Kye0OrOEeyNi43YQ8vFwA" tag="OutputFileName" value="branchcode_Data_Quality_Report"/>
+  <taggedValue xmi:id="_8KzF4OrOEeyNi43YQ8vFwA" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_8KzF4erOEeyNi43YQ8vFwA" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_8KzF4urOEeyNi43YQ8vFwA" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_8K3XVOrOEeyNi43YQ8vFwA" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <presentationParams xmi:id="_8K2JMOrOEeyNi43YQ8vFwA" type="BOTTOM_MIDDLE_PRESENTATIONKEY">
+    <formula xmi:id="_rcPu0OrXEeyNi43YQ8vFwA">
+      <expression xsi:type="relational:TdExpression" xmi:id="_rcPu0erXEeyNi43YQ8vFwA" body=""/>
+    </formula>
+  </presentationParams>
+  <presentationParams xmi:id="_8K2wQerOEeyNi43YQ8vFwA" type="TOP_LEFT_PRESENTATIONKEY">
+    <formula xmi:id="_0_mOBurPEeyNi43YQ8vFwA">
+      <expression xsi:type="relational:TdExpression" xmi:id="_0_mOB-rPEeyNi43YQ8vFwA" body="Report Author"/>
+    </formula>
+  </presentationParams>
+  <presentationParams xmi:id="_8K3XUOrOEeyNi43YQ8vFwA" type="BOTTOM_LEFT_PRESENTATIONKEY">
+    <formula xmi:id="_0_mOCOrPEeyNi43YQ8vFwA">
+      <expression xsi:type="relational:TdExpression" xmi:id="_0_mOCerPEeyNi43YQ8vFwA" body=""/>
+    </formula>
+  </presentationParams>
+  <presentationParams xmi:id="_0_mOAOrPEeyNi43YQ8vFwA" type="TOP_MIDDLE_PRESENTATIONKEY">
+    <formula xmi:id="_iRdzwOr3Eey8kIF0exIC1g">
+      <expression xsi:type="relational:TdExpression" xmi:id="_iRdzwer3Eey8kIF0exIC1g" body="Creation Date"/>
+    </formula>
+  </presentationParams>
+  <presentationParams xmi:id="_0_mOA-rPEeyNi43YQ8vFwA" type="BOTTOM_RIGHT_PRESENTATIONKEY">
+    <formula xmi:id="_k8j9UOrREeyNi43YQ8vFwA">
+      <expression xsi:type="relational:TdExpression" xmi:id="_k8j9UerREeyNi43YQ8vFwA" body="Page Number"/>
+    </formula>
+  </presentationParams>
+  <presentationParams xmi:id="_0_mOCurPEeyNi43YQ8vFwA" type="TOP_RIGHT_PRESENTATIONKEY">
+    <formula xmi:id="_klQQkurREeyNi43YQ8vFwA">
+      <expression xsi:type="relational:TdExpression" xmi:id="_klQQk-rREeyNi43YQ8vFwA" body=""/>
+    </formula>
+  </presentationParams>
+  <analysisMap xmi:id="_8K3-YOrOEeyNi43YQ8vFwA" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/BRANCH_BASIC_ANALYSIS_0.1.ana#_QAt2gOrGEeyNi43YQ8vFwA"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_2_zVwOrQEeyNi43YQ8vFwA" executionDate="2022-06-13T11:58:45.955+0800" executionDuration="2108" executionNumber="3" lastRunOk="true" lastExecutionNumberOk="3"/>
+  <context xmi:id="_8K3XU-rOEeyNi43YQ8vFwA" confirmationNeeded="false" name="Default"/>
+</dataquality.reports:TdReport>
