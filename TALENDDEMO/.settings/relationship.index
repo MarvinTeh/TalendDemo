@@ -386,6 +386,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_nwQlIOxfEeyrwoegX0hYMQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_dm0BcObkEeylB-iAUCfr7g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dm0BcObkEeylB-iAUCfr7g - ga_transaction",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_nxv9oOejEeywRdXl63552Q",
     "version" : "0.1",
     "type" : "job"
