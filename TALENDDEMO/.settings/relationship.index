@@ -437,10 +437,6 @@
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_rv59oOx3EeyrwoegX0hYMQ - DIM_CUSTOMER",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
     "id" : "_rv59oOx3EeyrwoegX0hYMQ - DIM_LOCATION",
     "version" : "Latest",
     "type" : "schema"
