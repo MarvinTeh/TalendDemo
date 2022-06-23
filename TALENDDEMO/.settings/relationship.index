@@ -188,6 +188,25 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_MQ_xgPLfEeyrwoegX0hYMQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_rv59oOx3EeyrwoegX0hYMQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_uwt4kPLgEeyrwoegX0hYMQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_uwt4kPLgEeyrwoegX0hYMQ - Bidang(combined_KKM)",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_MRjNoOfHEeyG1ci_8GvCVw",
     "version" : "0.1",
     "type" : "job"
