@@ -314,13 +314,13 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_TB4ykOYSEeyC4ZO0YgbGgw",
+    "id" : "_dm0BcObkEeylB-iAUCfr7g",
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_TB4ykOYSEeyC4ZO0YgbGgw - branch_code",
+    "id" : "_dnfW4ObkEeylB-iAUCfr7g",
     "version" : "Latest",
-    "type" : "schema"
+    "type" : "property"
   } ]
 }, {
   "baseItem" : {
