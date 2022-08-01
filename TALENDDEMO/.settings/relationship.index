@@ -192,71 +192,7 @@
     "version" : "0.1",
     "type" : "job"
   },
-  "relatedItems" : [ {
-    "id" : "_1DSsoPNeEey2rKdZ5wgT2w",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_7dRtgPNeEey2rKdZ5wgT2w",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_QcZy0PNfEey2rKdZ5wgT2w",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_ZEXHIPNfEey2rKdZ5wgT2w",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_euIzEPNfEey2rKdZ5wgT2w",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_hgy9YPNeEey2rKdZ5wgT2w",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_tyzhkPNeEey2rKdZ5wgT2w",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_uwt4kPLgEeyrwoegX0hYMQ",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_1DSsoPNeEey2rKdZ5wgT2w - metadata",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_7dRtgPNeEey2rKdZ5wgT2w - metadata",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_QcZy0PNfEey2rKdZ5wgT2w - metadata",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_ZEXHIPNfEey2rKdZ5wgT2w - UAT_julatsandangan",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_euIzEPNfEey2rKdZ5wgT2w - metadata",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_hgy9YPNeEey2rKdZ5wgT2w - Sheet1(F_7jan(3))",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_tyzhkPNeEey2rKdZ5wgT2w - metadata",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_uwt4kPLgEeyrwoegX0hYMQ - Bidang(combined_KKM)",
-    "version" : "Latest",
-    "type" : "schema"
-  } ]
+  "relatedItems" : [ ]
 }, {
   "baseItem" : {
     "id" : "_MRjNoOfHEeyG1ci_8GvCVw",
